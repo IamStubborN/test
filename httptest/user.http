@@ -1,0 +1,48 @@
+### Add new user
+POST http://localhost:5555/user/create HTTP/1.1
+Accept: */*
+Content-Type: application/json
+
+{
+  "id":2,
+  "balance":100,
+  "token":"testtask"
+}
+
+### Get user by id
+POST http://localhost:5555/user/get HTTP/1.1
+Accept: */*
+Content-Type: application/json
+
+{
+  "id": 1,
+  "token":"testtask"
+}
+
+### Add new deposit
+POST http://localhost:5555/user/deposit HTTP/1.1
+Accept: */*
+Content-Type: application/json
+
+{
+  "userId":1,
+  "depositId":3,
+  "amount":10.01,
+  "token":"testtask"
+}
+
+
+### Add new transaction
+POST http://localhost:5555/transaction HTTP/1.1
+Accept: */*
+Content-Type: application/json
+
+{
+  "userId":1,
+  "transactionId":4,
+  "type":"Bet",
+  "amount":15.5555,
+  "token":"testtask"
+}
+
+###

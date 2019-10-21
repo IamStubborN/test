@@ -1,0 +1,1623 @@
+2019-10-19T11:37:23.883+0300	FATAL	sql: unknown driver "postgres" (forgotten import?)
+2019-10-19T11:37:57.017+0300	INFO	connect to db	{"status": "connected"}
+2019-10-19T11:37:57.030+0300	FATAL	Error while parsing 001-db.sql: Error parsing migration (001-db.sql): ERROR: no Up/Down annotations found, so no statements were executed.
+			See https://github.com/rubenv/sql-migrate for details.
+2019-10-19T11:40:00.381+0300	INFO	connect to db	{"status": "connected"}
+2019-10-19T11:40:00.386+0300	FATAL	pq: syntax error at or near "not" handling 001-db.sql
+2019-10-19T11:40:13.708+0300	INFO	connect to db	{"status": "connected"}
+2019-10-19T11:40:13.714+0300	FATAL	pq: relation "users" already exists handling 001-db.sql
+2019-10-19T11:40:46.073+0300	INFO	connect to db	{"status": "connected"}
+2019-10-19T11:40:46.089+0300	FATAL	pq: relation "bets_pk" already exists handling 001-db.sql
+2019-10-19T11:41:27.467+0300	INFO	connect to db	{"status": "connected"}
+2019-10-19T11:41:27.483+0300	FATAL	pq: relation "bets_pk" already exists handling 001-db.sql
+2019-10-19T11:41:39.032+0300	INFO	connect to db	{"status": "connected"}
+2019-10-19T11:41:39.047+0300	FATAL	pq: relation "bets_pk" already exists handling 001-db.sql
+2019-10-19T11:42:12.899+0300	INFO	connect to db	{"status": "connected"}
+2019-10-19T11:42:12.920+0300	INFO	migrations complete
+2019-10-19T11:43:32.717+0300	INFO	connect to db	{"status": "connected"}
+2019-10-19T11:43:32.719+0300	INFO	migrations complete
+2019-10-19T11:45:14.894+0300	WARN	EOF
+2019-10-19T11:45:29.958+0300	WARN	EOF
+2019-10-19T11:46:47.766+0300	INFO	http: Server closed
+2019-10-19T11:46:51.877+0300	INFO	connect to db	{"status": "connected"}
+2019-10-19T11:46:51.879+0300	INFO	migrations complete
+2019-10-19T11:46:52.164+0300	WARN	EOF
+2019-10-19T11:47:26.070+0300	INFO	http: Server closed
+2019-10-19T11:47:30.178+0300	INFO	connect to db	{"status": "connected"}
+2019-10-19T11:47:30.180+0300	INFO	migrations complete
+2019-10-19T11:47:31.410+0300	INFO	http: Server closed
+2019-10-19T11:47:45.984+0300	INFO	connect to db	{"status": "connected"}
+2019-10-19T11:47:45.987+0300	INFO	migrations complete
+2019-10-19T11:48:08.350+0300	WARN	EOF
+2019-10-19T11:48:24.752+0300	INFO	connect to db	{"status": "connected"}
+2019-10-19T11:48:24.754+0300	INFO	migrations complete
+2019-10-19T11:48:41.087+0300	WARN	EOF
+2019-10-19T11:49:41.906+0300	INFO	connect to db	{"status": "connected"}
+2019-10-19T11:49:41.909+0300	INFO	migrations complete
+2019-10-19T11:50:02.215+0300	INFO	connect to db	{"status": "connected"}
+2019-10-19T11:50:02.217+0300	INFO	migrations complete
+2019-10-19T11:52:43.427+0300	INFO	connect to db	{"status": "connected"}
+2019-10-19T11:52:43.429+0300	INFO	migrations complete
+2019-10-19T11:52:55.149+0300	WARN	EOF
+2019-10-19T11:53:17.040+0300	INFO	connect to db	{"status": "connected"}
+2019-10-19T11:53:17.042+0300	INFO	migrations complete
+2019-10-19T11:53:22.897+0300	WARN	EOF
+2019-10-19T12:14:05.943+0300	INFO	connect to db	{"status": "connected"}
+2019-10-19T12:14:05.945+0300	INFO	migrations complete
+2019-10-19T12:14:09.293+0300	WARN	EOF
+2019-10-19T12:18:26.362+0300	INFO	connect to db	{"status": "connected"}
+2019-10-19T12:18:26.365+0300	INFO	migrations complete
+2019-10-19T12:18:42.684+0300	INFO	connect to db	{"status": "connected"}
+2019-10-19T12:18:42.686+0300	INFO	migrations complete
+2019-10-19T12:21:39.983+0300	INFO	http: Server closed
+2019-10-19T12:21:44.214+0300	INFO	connect to db	{"status": "connected"}
+2019-10-19T12:21:44.216+0300	INFO	migrations complete
+2019-10-19T12:21:44.327+0300	WARN	EOF
+2019-10-19T12:22:00.331+0300	INFO	http: Server closed
+2019-10-19T12:22:04.249+0300	INFO	connect to db	{"status": "connected"}
+2019-10-19T12:22:04.252+0300	INFO	migrations complete
+2019-10-19T12:25:26.760+0300	INFO	connect to db	{"status": "connected"}
+2019-10-19T12:25:26.762+0300	INFO	migrations complete
+2019-10-19T12:26:04.667+0300	INFO	connect to db	{"status": "connected"}
+2019-10-19T12:26:04.670+0300	INFO	migrations complete
+2019-10-19T12:26:35.500+0300	INFO	connect to db	{"status": "connected"}
+2019-10-19T12:26:35.502+0300	INFO	migrations complete
+2019-10-19T12:26:42.530+0300	INFO	http: Server closed
+2019-10-19T12:26:50.095+0300	INFO	connect to db	{"status": "connected"}
+2019-10-19T12:26:50.097+0300	INFO	migrations complete
+2019-10-19T12:26:56.167+0300	INFO	user: user is already exist
+2019-10-19T12:26:56.167+0300	WARN	user: user is already exist
+2019-10-19T12:27:16.300+0300	INFO	http: Server closed
+2019-10-19T12:27:20.323+0300	INFO	connect to db	{"status": "connected"}
+2019-10-19T12:27:20.326+0300	INFO	migrations complete
+2019-10-19T12:27:44.452+0300	INFO	http: Server closed
+2019-10-19T12:28:07.287+0300	INFO	connect to db	{"status": "connected"}
+2019-10-19T12:28:07.290+0300	INFO	migrations complete
+2019-10-19T12:29:55.780+0300	INFO	connect to db	{"status": "connected"}
+2019-10-19T12:29:55.782+0300	INFO	migrations complete
+2019-10-19T12:30:21.829+0300	INFO	connect to db	{"status": "connected"}
+2019-10-19T12:30:21.831+0300	INFO	migrations complete
+2019-10-19T12:30:27.522+0300	INFO	user: user is already exist
+2019-10-19T12:30:27.522+0300	WARN	user: user is already exist
+2019-10-20T17:43:13.122+0300	INFO	user: user is already exist
+2019-10-20T17:43:13.123+0300	WARN	user: user is already exist
+2019-10-20T18:54:49.858+0300	INFO	user: user is already exist
+2019-10-20T18:54:49.858+0300	WARN	user: user is already exist
+2019-10-20T18:54:51.750+0300	INFO	user: user is already exist
+2019-10-20T18:54:51.750+0300	WARN	user: user is already exist
+2019-10-20T18:56:43.156+0300	INFO	http: Server closed
+2019-10-20T18:56:51.910+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T18:56:51.914+0300	INFO	migrations complete
+2019-10-20T18:59:30.395+0300	INFO	user: user is already exist
+2019-10-20T18:59:30.395+0300	WARN	user: user is already exist
+2019-10-20T19:00:13.478+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T19:00:13.480+0300	INFO	migrations complete
+2019-10-20T19:00:48.847+0300	INFO	user: user is already exist
+2019-10-20T19:00:48.847+0300	WARN	user: user is already exist
+2019-10-20T19:00:49.961+0300	INFO	http: Server closed
+2019-10-20T19:00:54.145+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T19:00:54.147+0300	INFO	migrations complete
+2019-10-20T19:01:00.602+0300	INFO	user: user is already exist
+2019-10-20T19:01:00.602+0300	WARN	user: user is already exist
+2019-10-20T19:02:57.884+0300	INFO	http: Server closed
+2019-10-20T19:03:02.095+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T19:03:02.097+0300	INFO	migrations complete
+2019-10-20T19:03:05.337+0300	INFO	user: user is already exist
+2019-10-20T19:03:05.337+0300	WARN	user: user is already exist
+2019-10-20T19:04:46.656+0300	INFO	http: Server closed
+2019-10-20T19:04:50.871+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T19:04:50.873+0300	INFO	migrations complete
+2019-10-20T19:05:03.191+0300	INFO	user: user isn't exist
+2019-10-20T19:05:03.191+0300	WARN	user: user isn't exist
+2019-10-20T19:07:27.209+0300	INFO	http: Server closed
+2019-10-20T19:07:31.413+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T19:07:31.416+0300	INFO	migrations complete
+2019-10-20T19:07:36.076+0300	INFO	user: user is already exist
+2019-10-20T19:07:36.076+0300	WARN	user: user is already exist
+2019-10-20T19:07:41.095+0300	INFO	user: user is already exist
+2019-10-20T19:07:41.095+0300	WARN	user: user is already exist
+2019-10-20T19:09:25.753+0300	INFO	http: Server closed
+2019-10-20T19:09:29.998+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T19:09:30.000+0300	INFO	migrations complete
+2019-10-20T19:09:44.276+0300	INFO	user: user is already exist
+2019-10-20T19:09:44.276+0300	WARN	user: user is already exist
+2019-10-20T19:10:19.485+0300	INFO	http: Server closed
+2019-10-20T19:10:23.656+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T19:10:23.658+0300	INFO	migrations complete
+2019-10-20T19:11:26.806+0300	INFO	http: Server closed
+2019-10-20T19:11:31.089+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T19:11:31.091+0300	INFO	migrations complete
+2019-10-20T19:11:35.904+0300	INFO	user: user is already exist
+2019-10-20T19:11:35.905+0300	WARN	user: user is already exist
+2019-10-20T19:15:12.254+0300	INFO	http: Server closed
+2019-10-20T19:15:16.678+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T19:15:16.680+0300	INFO	migrations complete
+2019-10-20T19:15:35.619+0300	INFO	http: Server closed
+2019-10-20T19:15:39.860+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T19:15:39.862+0300	INFO	migrations complete
+2019-10-20T19:15:46.636+0300	INFO	user: user is already exist
+2019-10-20T19:15:46.636+0300	WARN	user: user is already exist
+2019-10-20T19:17:16.295+0300	INFO	http: Server closed
+2019-10-20T19:17:20.513+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T19:17:20.515+0300	INFO	migrations complete
+2019-10-20T19:17:22.243+0300	INFO	user: user is already exist
+2019-10-20T19:17:22.243+0300	WARN	user: user is already exist
+2019-10-20T19:21:41.102+0300	INFO	http: Server closed
+2019-10-20T19:22:45.688+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T19:22:45.690+0300	INFO	migrations complete
+2019-10-20T19:22:50.646+0300	INFO	user: user is already exist
+2019-10-20T19:22:50.646+0300	WARN	user: user is already exist
+2019-10-20T19:25:03.162+0300	INFO	http: Server closed
+2019-10-20T19:25:07.112+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T19:25:07.115+0300	INFO	migrations complete
+2019-10-20T19:26:07.345+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T19:26:07.347+0300	INFO	migrations complete
+2019-10-20T19:27:52.626+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T19:27:52.630+0300	INFO	migrations complete
+2019-10-20T19:29:58.820+0300	WARN	json: cannot unmarshal string into Go struct field Transaction.Type of type models.TransactionType
+2019-10-20T19:30:06.020+0300	WARN	json: cannot unmarshal string into Go struct field Transaction.Type of type models.TransactionType
+2019-10-20T19:30:06.764+0300	WARN	json: cannot unmarshal string into Go struct field Transaction.Type of type models.TransactionType
+2019-10-20T19:31:14.329+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T19:31:14.332+0300	INFO	migrations complete
+2019-10-20T19:31:58.106+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T19:31:58.108+0300	INFO	migrations complete
+2019-10-20T19:36:05.608+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T19:36:05.610+0300	INFO	migrations complete
+2019-10-20T19:36:42.228+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T19:36:42.230+0300	INFO	migrations complete
+2019-10-20T19:36:57.485+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T19:36:57.487+0300	INFO	migrations complete
+2019-10-20T19:39:30.284+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T19:39:30.286+0300	INFO	migrations complete
+2019-10-20T19:41:33.221+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T19:41:33.223+0300	INFO	migrations complete
+2019-10-20T19:42:19.455+0300	INFO	http: Server closed
+2019-10-20T19:42:23.298+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T19:42:23.301+0300	INFO	migrations complete
+2019-10-20T19:48:20.714+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T19:48:20.717+0300	INFO	migrations complete
+2019-10-20T19:56:28.770+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T19:56:28.773+0300	INFO	migrations complete
+2019-10-20T19:56:30.080+0300	WARN	EOF
+2019-10-20T19:57:25.448+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T19:57:25.450+0300	INFO	migrations complete
+2019-10-20T19:58:10.011+0300	INFO	http: Server closed
+2019-10-20T19:58:13.907+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T19:58:13.910+0300	INFO	migrations complete
+2019-10-20T19:59:54.284+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T19:59:54.286+0300	INFO	migrations complete
+2019-10-20T20:01:10.607+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T20:01:10.609+0300	INFO	migrations complete
+2019-10-20T20:14:26.376+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T20:14:26.378+0300	INFO	migrations complete
+2019-10-20T20:14:29.786+0300	INFO	user: user is already exist
+2019-10-20T20:14:29.786+0300	WARN	user: user is already exist
+2019-10-20T20:30:51.082+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T20:30:51.084+0300	INFO	migrations complete
+2019-10-20T20:31:01.207+0300	WARN	deposit: deposit is already exist
+2019-10-20T20:31:03.319+0300	WARN	deposit: deposit is already exist
+2019-10-20T20:31:41.858+0300	WARN	transaction: transaction is already exist
+2019-10-20T20:32:02.144+0300	WARN	transaction: transaction is already exist
+2019-10-20T20:35:38.882+0300	INFO	http: Server closed
+2019-10-20T20:35:50.589+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T20:35:50.591+0300	INFO	migrations complete
+2019-10-20T20:36:06.883+0300	INFO	http: Server closed
+2019-10-20T20:36:11.041+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T20:36:11.043+0300	INFO	migrations complete
+2019-10-20T20:36:12.150+0300	INFO		{"status": 200, "size": 13}
+2019-10-20T20:36:25.174+0300	INFO	http: Server closed
+2019-10-20T20:36:29.355+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T20:36:29.357+0300	INFO	migrations complete
+2019-10-20T20:36:30.100+0300	INFO	served	{"status": 200, "size": 13}
+2019-10-20T20:37:09.200+0300	INFO	http: Server closed
+2019-10-20T20:37:13.348+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T20:37:13.350+0300	INFO	migrations complete
+2019-10-20T20:37:13.512+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-20T20:37:18.975+0300	INFO	user: user is already exist
+2019-10-20T20:37:18.975+0300	WARN	user: user is already exist
+2019-10-20T20:37:18.975+0300	INFO	served	{"method": "POST", "status": 400, "size": 40, "path": "/user/create"}
+2019-10-20T20:37:30.302+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 21}
+2019-10-20T20:37:33.761+0300	INFO	served	{"method": "POST", "status": 200, "size": 64, "path": "/user/deposit"}
+2019-10-20T20:43:03.733+0300	INFO	http: Server closed
+2019-10-20T20:43:07.876+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T20:43:07.878+0300	INFO	migrations complete
+2019-10-20T20:43:09.527+0300	INFO	served	{"status": 200, "size": 13, "path": "/user/create", "method": "POST"}
+2019-10-20T20:43:12.509+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 55}
+2019-10-20T20:46:49.362+0300	WARN	deposit: deposit is already exist
+2019-10-20T20:46:49.363+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 400, "size": 22}
+2019-10-20T20:46:54.905+0300	INFO	http: Server closed
+2019-10-20T20:46:59.069+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T20:46:59.072+0300	INFO	migrations complete
+2019-10-20T20:46:59.818+0300	INFO	user: user isn't exist
+2019-10-20T20:46:59.818+0300	WARN	user: user isn't exist
+2019-10-20T20:46:59.818+0300	INFO	served	{"status": 400, "size": 22, "path": "/user/deposit", "method": "POST"}
+2019-10-20T20:47:04.007+0300	INFO	served	{"method": "POST", "status": 200, "size": 13, "path": "/user/create"}
+2019-10-20T20:47:05.699+0300	INFO	served	{"status": 200, "size": 106, "path": "/user/deposit", "method": "POST"}
+2019-10-20T20:48:09.439+0300	INFO	http: Server closed
+2019-10-20T20:48:13.450+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T20:48:13.453+0300	INFO	migrations complete
+2019-10-20T20:48:16.774+0300	INFO	served	{"method": "POST", "status": 200, "size": 13, "path": "/user/create"}
+2019-10-20T20:48:19.028+0300	INFO	user: user is already exist
+2019-10-20T20:48:19.028+0300	WARN	user: user is already exist
+2019-10-20T20:48:19.028+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 400, "size": 40}
+2019-10-20T20:48:21.451+0300	INFO	served	{"size": 21, "path": "/user/get", "method": "POST", "status": 200}
+2019-10-20T20:48:25.354+0300	INFO	served	{"status": 200, "size": 106, "path": "/user/deposit", "method": "POST"}
+2019-10-20T20:49:58.993+0300	INFO	http: Server closed
+2019-10-20T20:50:03.123+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T20:50:03.125+0300	INFO	migrations complete
+2019-10-20T20:50:04.565+0300	INFO	user: user isn't exist
+2019-10-20T20:50:04.566+0300	WARN	user: user isn't exist
+2019-10-20T20:50:04.566+0300	INFO	served	{"size": 22, "path": "/user/deposit", "method": "POST", "status": 400}
+2019-10-20T20:50:07.692+0300	INFO	served	{"method": "POST", "status": 200, "size": 13, "path": "/user/create"}
+2019-10-20T20:50:10.252+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 71}
+2019-10-20T20:50:36.792+0300	INFO	http: Server closed
+2019-10-20T20:50:40.959+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T20:50:40.961+0300	INFO	migrations complete
+2019-10-20T20:50:41.095+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-20T20:50:42.871+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 72}
+2019-10-20T20:51:44.913+0300	WARN	deposit: deposit is already exist
+2019-10-20T20:51:44.914+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 400, "size": 22}
+2019-10-20T20:51:46.081+0300	INFO	http: Server closed
+2019-10-20T20:51:50.252+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T20:51:50.255+0300	INFO	migrations complete
+2019-10-20T20:51:50.842+0300	INFO	user: user isn't exist
+2019-10-20T20:51:50.842+0300	WARN	user: user isn't exist
+2019-10-20T20:51:50.842+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 400, "size": 22}
+2019-10-20T20:51:53.887+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-20T20:51:55.292+0300	INFO	served	{"size": 65, "path": "/user/deposit", "method": "POST", "status": 200}
+2019-10-20T20:52:14.473+0300	INFO	http: Server closed
+2019-10-20T20:52:18.640+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T20:52:18.642+0300	INFO	migrations complete
+2019-10-20T20:52:18.737+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-20T20:52:20.723+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 13}
+2019-10-20T20:55:07.448+0300	INFO	http: Server closed
+2019-10-20T20:55:11.726+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T20:55:11.728+0300	INFO	migrations complete
+2019-10-20T20:55:13.553+0300	INFO	served	{"size": 13, "path": "/user/create", "method": "POST", "status": 200}
+2019-10-20T20:55:18.226+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 28}
+2019-10-20T20:55:24.346+0300	WARN	transaction: transaction is already exist
+2019-10-20T20:55:24.346+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 400, "size": 22}
+2019-10-20T20:57:05.345+0300	INFO	http: Server closed
+2019-10-20T20:57:09.602+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T20:57:09.604+0300	INFO	migrations complete
+2019-10-20T20:57:10.531+0300	INFO	served	{"method": "POST", "status": 200, "size": 13, "path": "/user/create"}
+2019-10-20T20:57:14.048+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 21}
+2019-10-20T20:57:17.294+0300	INFO	served	{"status": 200, "size": 26, "path": "/user/deposit", "method": "POST"}
+2019-10-20T20:57:20.168+0300	WARN	deposit: deposit is already exist
+2019-10-20T20:57:20.168+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 400, "size": 22}
+2019-10-20T20:57:23.288+0300	INFO	served	{"size": 29, "path": "/transaction", "method": "POST", "status": 200}
+2019-10-20T20:57:27.123+0300	WARN	deposit: deposit is already exist
+2019-10-20T20:57:27.123+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 400, "size": 22}
+2019-10-20T20:57:42.727+0300	INFO	http: Server closed
+2019-10-20T20:57:46.737+0300	INFO	connect to db	{"status": "connected"}
+2019-10-20T20:57:46.740+0300	INFO	migrations complete
+2019-10-20T20:57:51.726+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-20T20:57:55.405+0300	INFO	served	{"status": 200, "size": 21, "path": "/user/get", "method": "POST"}
+2019-10-20T20:58:06.471+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 29}
+2019-10-20T20:58:16.533+0300	INFO	served	{"status": 200, "size": 25, "path": "/user/get", "method": "POST"}
+2019-10-20T20:58:20.483+0300	INFO	served	{"status": 200, "size": 30, "path": "/transaction", "method": "POST"}
+2019-10-20T20:58:25.286+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 26}
+2019-10-20T20:58:32.930+0300	WARN	transaction: transaction is already exist
+2019-10-20T20:58:32.930+0300	INFO	served	{"status": 400, "size": 22, "path": "/transaction", "method": "POST"}
+2019-10-20T20:58:37.466+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 29}
+2019-10-20T20:58:44.717+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 43}
+2019-10-20T21:46:25.827+0300	INFO	http: Server closed
+2019-10-21T09:09:35.732+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T09:09:35.777+0300	FATAL	pq: schema "public" already exists handling 001-db.sql
+2019-10-21T09:10:17.655+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T09:10:17.702+0300	INFO	migrations complete
+2019-10-21T09:10:36.244+0300	INFO	served	{"status": 200, "size": 13, "path": "/user/create", "method": "POST"}
+2019-10-21T09:10:38.504+0300	INFO	user: user is already exist
+2019-10-21T09:10:38.504+0300	WARN	user: user is already exist
+2019-10-21T09:10:38.504+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 400, "size": 40}
+2019-10-21T09:10:41.451+0300	INFO	served	{"size": 21, "path": "/user/get", "method": "POST", "status": 200}
+2019-10-21T09:10:44.454+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 29}
+2019-10-21T09:10:51.448+0300	WARN	deposit: deposit is already exist
+2019-10-21T09:10:51.448+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 400, "size": 22}
+2019-10-21T09:10:54.888+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 30}
+2019-10-21T09:11:05.502+0300	WARN	transaction: transaction is already exist
+2019-10-21T09:11:05.502+0300	INFO	served	{"method": "POST", "status": 400, "size": 22, "path": "/transaction"}
+2019-10-21T09:11:09.954+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 30}
+2019-10-21T09:11:19.171+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 30}
+2019-10-21T09:30:30.969+0300	INFO	http: Server closed
+2019-10-21T09:32:15.269+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T09:32:15.271+0300	INFO	migrations complete
+2019-10-21T09:32:26.331+0300	INFO	served	{"method": "POST", "status": 200, "size": 13, "path": "/user/create"}
+2019-10-21T09:32:28.524+0300	INFO	served	{"status": 200, "size": 21, "path": "/user/get", "method": "POST"}
+2019-10-21T09:32:40.152+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 29}
+2019-10-21T09:32:42.285+0300	WARN	deposit: deposit is already exist
+2019-10-21T09:32:42.285+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 400, "size": 22}
+2019-10-21T09:32:46.272+0300	INFO	user: user isn't exist
+2019-10-21T09:32:46.272+0300	WARN	user: user isn't exist
+2019-10-21T09:32:46.272+0300	INFO	served	{"size": 22, "path": "/user/deposit", "method": "POST", "status": 400}
+2019-10-21T09:32:53.667+0300	INFO	served	{"method": "POST", "status": 200, "size": 29, "path": "/user/deposit"}
+2019-10-21T09:33:57.678+0300	WARN	deposit: deposit is already exist
+2019-10-21T09:33:57.678+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 400, "size": 22}
+2019-10-21T09:33:59.354+0300	INFO	http: Server closed
+2019-10-21T09:34:01.677+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T09:34:01.678+0300	INFO	migrations complete
+2019-10-21T09:34:04.079+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T09:34:09.982+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 21}
+2019-10-21T09:34:14.506+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 28}
+2019-10-21T09:34:18.648+0300	INFO	served	{"size": 28, "path": "/user/deposit", "method": "POST", "status": 200}
+2019-10-21T09:34:21.221+0300	INFO	served	{"size": 28, "path": "/user/deposit", "method": "POST", "status": 200}
+2019-10-21T09:34:24.170+0300	WARN	transaction: transaction is already exist
+2019-10-21T09:34:24.170+0300	INFO	served	{"method": "POST", "status": 400, "size": 22, "path": "/transaction"}
+2019-10-21T09:36:00.874+0300	INFO	user: user isn't exist
+2019-10-21T09:36:00.874+0300	WARN	user: user isn't exist
+2019-10-21T09:36:00.874+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 400, "size": 22}
+2019-10-21T09:36:02.576+0300	INFO	http: Server closed
+2019-10-21T09:36:04.938+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T09:36:04.939+0300	INFO	migrations complete
+2019-10-21T09:36:09.538+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T09:36:22.626+0300	INFO	served	{"method": "POST", "status": 200, "size": 29, "path": "/user/deposit"}
+2019-10-21T09:36:34.466+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 25}
+2019-10-21T09:36:37.289+0300	WARN	transaction: transaction is already exist
+2019-10-21T09:36:37.289+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 400, "size": 22}
+2019-10-21T09:36:48.640+0300	WARN	transaction: not enough money
+2019-10-21T09:36:48.640+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 400, "size": 22}
+2019-10-21T09:39:11.370+0300	INFO	http: Server closed
+2019-10-21T09:39:13.687+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T09:39:13.689+0300	INFO	migrations complete
+2019-10-21T09:39:19.007+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T09:39:23.679+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 21}
+2019-10-21T09:39:26.432+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 29}
+2019-10-21T09:39:29.386+0300	WARN	deposit: deposit is already exist
+2019-10-21T09:39:29.386+0300	INFO	served	{"size": 22, "path": "/user/deposit", "method": "POST", "status": 400}
+2019-10-21T09:40:14.838+0300	INFO	http: Server closed
+2019-10-21T09:40:17.159+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T09:40:17.161+0300	INFO	migrations complete
+2019-10-21T09:40:19.731+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T09:40:22.756+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 21}
+2019-10-21T09:40:25.479+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 29}
+2019-10-21T09:40:26.574+0300	WARN	deposit: deposit is already exist
+2019-10-21T09:40:26.574+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 400, "size": 46}
+2019-10-21T09:40:33.186+0300	WARN	deposit: deposit is already exist
+2019-10-21T09:40:33.186+0300	INFO	served	{"method": "POST", "status": 400, "size": 46, "path": "/user/deposit"}
+2019-10-21T09:40:39.571+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 25}
+2019-10-21T09:40:41.929+0300	WARN	transaction: transaction is already exist
+2019-10-21T09:40:41.929+0300	INFO	served	{"size": 54, "path": "/transaction", "method": "POST", "status": 400}
+2019-10-21T10:37:11.737+0300	INFO	http: Server closed
+2019-10-21T10:37:14.077+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T10:37:14.079+0300	INFO	migrations complete
+2019-10-21T10:38:00.354+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T10:38:03.769+0300	INFO	user: user is already exist
+2019-10-21T10:38:03.769+0300	WARN	user: user is already exist
+2019-10-21T10:38:03.769+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 400, "size": 40}
+2019-10-21T10:38:08.761+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 21}
+2019-10-21T10:38:11.487+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 29}
+2019-10-21T10:38:15.564+0300	INFO	served	{"status": 200, "size": 25, "path": "/transaction", "method": "POST"}
+2019-10-21T10:38:22.742+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 29}
+2019-10-21T10:38:28.001+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 29}
+2019-10-21T10:38:36.318+0300	INFO	served	{"method": "POST", "status": 200, "size": 29, "path": "/transaction"}
+2019-10-21T10:38:40.213+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 29}
+2019-10-21T10:38:54.975+0300	WARN	transaction: transaction is already exist
+2019-10-21T10:38:54.975+0300	INFO	served	{"status": 400, "size": 54, "path": "/transaction", "method": "POST"}
+2019-10-21T10:38:57.315+0300	WARN	deposit: deposit is already exist
+2019-10-21T10:38:57.315+0300	INFO	served	{"status": 400, "size": 46, "path": "/user/deposit", "method": "POST"}
+2019-10-21T10:39:01.936+0300	INFO	user: user is already exist
+2019-10-21T10:39:01.936+0300	WARN	user: user is already exist
+2019-10-21T10:39:01.936+0300	INFO	served	{"size": 40, "path": "/user/create", "method": "POST", "status": 400}
+2019-10-21T10:42:13.885+0300	INFO	user: user is already exist
+2019-10-21T10:42:13.885+0300	WARN	user: user is already exist
+2019-10-21T10:42:13.885+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 400, "size": 40}
+2019-10-21T10:43:01.311+0300	INFO	http: Server closed
+2019-10-21T10:43:03.694+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T10:43:03.696+0300	INFO	migrations complete
+2019-10-21T10:43:05.668+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T10:43:09.296+0300	WARN	user: user is already exist
+2019-10-21T10:43:09.296+0300	INFO	served	{"method": "POST", "status": 400, "size": 40, "path": "/user/create"}
+2019-10-21T10:43:12.458+0300	WARN	user: user is already exist
+2019-10-21T10:43:12.458+0300	INFO	served	{"status": 400, "size": 40, "path": "/user/create", "method": "POST"}
+2019-10-21T10:43:16.203+0300	INFO	served	{"status": 200, "size": 21, "path": "/user/get", "method": "POST"}
+2019-10-21T10:43:35.945+0300	INFO	served	{"status": 200, "size": 13, "path": "/user/create", "method": "POST"}
+2019-10-21T10:43:46.299+0300	INFO	served	{"status": 200, "size": 29, "path": "/user/deposit", "method": "POST"}
+2019-10-21T10:43:50.298+0300	WARN	deposit: deposit is already exist
+2019-10-21T10:43:50.299+0300	INFO	served	{"status": 400, "size": 46, "path": "/user/deposit", "method": "POST"}
+2019-10-21T10:43:58.343+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 29}
+2019-10-21T10:44:02.420+0300	WARN	transaction: transaction is already exist
+2019-10-21T10:44:02.420+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 400, "size": 54}
+2019-10-21T10:44:27.806+0300	WARN	transaction: transaction is already exist
+2019-10-21T10:44:27.806+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 400, "size": 54}
+2019-10-21T10:46:37.682+0300	INFO	http: Server closed
+2019-10-21T10:47:23.070+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T10:47:23.072+0300	INFO	migrations complete
+2019-10-21T10:47:27.529+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T10:47:32.469+0300	WARN	user: user is already exist
+2019-10-21T10:47:32.469+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 400, "size": 40}
+2019-10-21T10:47:43.517+0300	WARN	user: user isn't exist
+2019-10-21T10:47:43.517+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 400, "size": 22}
+2019-10-21T10:48:03.791+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T10:48:05.012+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 21}
+2019-10-21T10:48:07.590+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 29}
+2019-10-21T10:48:14.050+0300	WARN	deposit: deposit is already exist
+2019-10-21T10:48:14.050+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 400, "size": 46}
+2019-10-21T10:48:16.192+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 29}
+2019-10-21T10:48:22.768+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 25}
+2019-10-21T10:48:26.141+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 21}
+2019-10-21T10:48:33.601+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 29}
+2019-10-21T10:48:35.904+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 25}
+2019-10-21T10:48:39.433+0300	WARN	transaction: transaction is already exist
+2019-10-21T10:48:39.434+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 400, "size": 54}
+2019-10-21T10:48:43.117+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 29}
+2019-10-21T10:48:51.638+0300	WARN	transaction: transaction is already exist
+2019-10-21T10:48:51.638+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 400, "size": 54}
+2019-10-21T10:48:54.551+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 29}
+2019-10-21T10:48:59.572+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 26}
+2019-10-21T11:12:35.254+0300	INFO	http: Server closed
+2019-10-21T11:14:43.039+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T11:14:43.041+0300	INFO	migrations complete
+2019-10-21T11:14:54.907+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T11:14:56.974+0300	WARN	user: user is already exist
+2019-10-21T11:14:56.974+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 400, "size": 40}
+2019-10-21T11:14:59.094+0300	WARN	user: user isn't exist
+2019-10-21T11:14:59.095+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 400, "size": 22}
+2019-10-21T11:15:04.052+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 101}
+2019-10-21T11:15:10.033+0300	WARN	user: user isn't exist
+2019-10-21T11:15:10.033+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 400, "size": 35}
+2019-10-21T11:15:16.830+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 29}
+2019-10-21T11:15:19.011+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 105}
+2019-10-21T11:15:29.916+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 26}
+2019-10-21T11:15:31.751+0300	WARN	transaction: transaction is already exist
+2019-10-21T11:15:31.752+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 400, "size": 54}
+2019-10-21T11:15:35.801+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 102}
+2019-10-21T11:15:47.436+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 29}
+2019-10-21T11:15:49.497+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 105}
+2019-10-21T11:16:28.696+0300	INFO	http: Server closed
+2019-10-21T11:16:37.317+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T11:16:37.319+0300	INFO	migrations complete
+2019-10-21T11:16:37.611+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T11:16:52.410+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 101}
+2019-10-21T11:16:55.266+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 29}
+2019-10-21T11:16:58.113+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 26}
+2019-10-21T11:18:14.491+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T11:18:14.493+0300	INFO	migrations complete
+2019-10-21T11:18:16.675+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T11:18:21.224+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 29}
+2019-10-21T11:19:28.031+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T11:19:28.033+0300	INFO	migrations complete
+2019-10-21T11:19:29.593+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T11:19:32.999+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 29}
+2019-10-21T11:27:10.500+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T11:27:10.543+0300	INFO	migrations complete
+2019-10-21T11:27:50.942+0300	INFO	http: Server closed
+2019-10-21T11:27:57.235+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T11:27:57.261+0300	FATAL	pq: relation "changers" does not exist handling 001-db.sql
+2019-10-21T11:28:15.205+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T11:28:15.233+0300	INFO	migrations complete
+2019-10-21T11:28:35.016+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T11:28:36.839+0300	WARN	user: user is already exist
+2019-10-21T11:28:36.839+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 400, "size": 40}
+2019-10-21T11:28:42.287+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 29}
+2019-10-21T11:28:44.786+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 105}
+2019-10-21T11:28:52.335+0300	WARN	json: cannot unmarshal string into Go struct field Transaction.Type of type models.TransactionType
+2019-10-21T11:28:52.335+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 400, "size": 111}
+2019-10-21T11:29:16.267+0300	WARN	json: cannot unmarshal string into Go struct field Transaction.Type of type models.TransactionType
+2019-10-21T11:29:16.267+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 400, "size": 111}
+2019-10-21T11:29:18.143+0300	INFO	http: Server closed
+2019-10-21T11:29:32.754+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T11:29:32.756+0300	INFO	migrations complete
+2019-10-21T11:29:34.187+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T11:29:37.476+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 29}
+2019-10-21T11:29:39.696+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 26}
+2019-10-21T11:29:41.416+0300	WARN	transaction: transaction is already exist
+2019-10-21T11:29:41.416+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 400, "size": 54}
+2019-10-21T11:29:44.201+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 102}
+2019-10-21T11:30:53.109+0300	INFO	http: Server closed
+2019-10-21T11:30:55.901+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T11:30:55.903+0300	INFO	migrations complete
+2019-10-21T11:30:56.998+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T11:31:00.064+0300	WARN	transaction: not enough money
+2019-10-21T11:31:00.065+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 400, "size": 42}
+2019-10-21T11:31:02.845+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 101}
+2019-10-21T11:31:05.868+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 29}
+2019-10-21T11:31:08.235+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 26}
+2019-10-21T11:32:07.732+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T11:32:07.734+0300	INFO	migrations complete
+2019-10-21T11:32:08.681+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T11:32:12.729+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 29}
+2019-10-21T11:32:15.673+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 105}
+2019-10-21T11:32:26.442+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 26}
+2019-10-21T11:32:28.622+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 102}
+2019-10-21T11:33:41.122+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T11:33:41.124+0300	INFO	migrations complete
+2019-10-21T11:33:41.950+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T11:33:47.326+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 29}
+2019-10-21T11:33:49.378+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 26}
+2019-10-21T11:35:05.706+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T11:35:05.707+0300	INFO	migrations complete
+2019-10-21T11:35:07.924+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T11:35:17.173+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 29}
+2019-10-21T11:35:19.451+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 26}
+2019-10-21T11:35:26.205+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 102}
+2019-10-21T11:36:45.915+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T11:36:45.917+0300	INFO	migrations complete
+2019-10-21T11:36:47.989+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T11:36:51.932+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 29}
+2019-10-21T11:36:54.579+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 26}
+2019-10-21T11:37:02.016+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 102}
+2019-10-21T11:40:54.637+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T11:40:54.638+0300	INFO	migrations complete
+2019-10-21T11:40:54.639+0300	INFO	listen tcp :5555: bind: address already in use
+2019-10-21T11:41:05.093+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T11:41:05.094+0300	INFO	migrations complete
+2019-10-21T11:41:06.995+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T11:41:09.634+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 29}
+2019-10-21T11:41:11.339+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 25}
+2019-10-21T11:41:14.504+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 101}
+2019-10-21T11:42:11.835+0300	INFO	http: Server closed
+2019-10-21T11:42:14.112+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T11:42:14.114+0300	INFO	migrations complete
+2019-10-21T11:42:17.578+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T11:42:19.425+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 29}
+2019-10-21T11:42:21.830+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 25}
+2019-10-21T11:42:24.162+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 104}
+2019-10-21T11:43:02.217+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 28}
+2019-10-21T11:43:28.793+0300	WARN	transaction: transaction is already exist
+2019-10-21T11:43:28.793+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 400, "size": 54}
+2019-10-21T11:43:33.090+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 28}
+2019-10-21T11:43:46.580+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 28}
+2019-10-21T11:43:49.889+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 25}
+2019-10-21T11:43:53.501+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 28}
+2019-10-21T11:44:08.048+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 120}
+2019-10-21T11:48:54.437+0300	INFO	http: Server closed
+2019-10-21T11:48:56.854+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T11:48:56.855+0300	INFO	migrations complete
+2019-10-21T11:48:57.103+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T11:48:59.655+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 29}
+2019-10-21T11:49:02.239+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 29}
+2019-10-21T11:49:03.637+0300	WARN	transaction: transaction is already exist
+2019-10-21T11:49:03.638+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 400, "size": 54}
+2019-10-21T11:49:06.853+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 108}
+2019-10-21T11:50:39.457+0300	INFO	http: Server closed
+2019-10-21T11:50:41.754+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T11:50:41.755+0300	INFO	migrations complete
+2019-10-21T11:50:43.692+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T11:50:47.060+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 29}
+2019-10-21T11:50:57.705+0300	INFO	http: Server closed
+2019-10-21T11:50:59.984+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T11:50:59.985+0300	INFO	migrations complete
+2019-10-21T11:51:07.087+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T11:51:10.048+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 29}
+2019-10-21T11:51:12.884+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 29}
+2019-10-21T11:51:28.955+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 29}
+2019-10-21T11:51:32.735+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 116}
+2019-10-21T11:52:20.382+0300	INFO	http: Server closed
+2019-10-21T11:52:22.683+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T11:52:22.685+0300	INFO	migrations complete
+2019-10-21T11:52:26.206+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T11:52:28.073+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 29}
+2019-10-21T11:52:30.320+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 26}
+2019-10-21T11:52:32.948+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 109}
+2019-10-21T11:59:43.850+0300	INFO	http: Server closed
+2019-10-21T11:59:46.194+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T11:59:46.195+0300	INFO	migrations complete
+2019-10-21T11:59:47.389+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T11:59:49.941+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 29}
+2019-10-21T11:59:51.931+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 109}
+2019-10-21T12:00:15.174+0300	INFO	http: Server closed
+2019-10-21T12:00:17.503+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T12:00:17.505+0300	INFO	migrations complete
+2019-10-21T12:00:19.166+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T12:00:21.687+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 29}
+2019-10-21T12:00:24.526+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 109}
+2019-10-21T12:03:50.770+0300	INFO	http: Server closed
+2019-10-21T12:03:53.136+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T12:03:53.138+0300	INFO	migrations complete
+2019-10-21T12:03:54.374+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T12:04:00.621+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 101}
+2019-10-21T12:04:03.165+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 29}
+2019-10-21T12:04:04.924+0300	WARN	user: user is already exist
+2019-10-21T12:04:04.924+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 400, "size": 40}
+2019-10-21T12:04:08.049+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 109}
+2019-10-21T12:04:11.974+0300	WARN	deposit: deposit is already exist
+2019-10-21T12:04:11.975+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 400, "size": 46}
+2019-10-21T12:04:13.598+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 109}
+2019-10-21T12:04:23.194+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 29}
+2019-10-21T12:04:25.128+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 109}
+2019-10-21T12:04:29.477+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 29}
+2019-10-21T12:04:31.705+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 112}
+2019-10-21T12:04:42.551+0300	WARN	transaction: transaction is already exist
+2019-10-21T12:04:42.551+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 400, "size": 54}
+2019-10-21T12:04:45.916+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 29}
+2019-10-21T12:04:51.756+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 29}
+2019-10-21T12:04:55.696+0300	WARN	user: user is already exist
+2019-10-21T12:04:55.696+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 400, "size": 40}
+2019-10-21T12:04:57.686+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 115}
+2019-10-21T12:06:05.171+0300	WARN	transaction: not enough money
+2019-10-21T12:06:05.171+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 400, "size": 42}
+2019-10-21T12:06:12.409+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 30}
+2019-10-21T12:06:19.008+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 119}
+2019-10-21T12:06:39.483+0300	INFO	http: Server closed
+2019-10-21T13:08:12.288+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T13:08:12.289+0300	INFO	migrations complete
+2019-10-21T13:08:15.084+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T13:08:17.291+0300	WARN	sql: expected 2 arguments, got 1
+2019-10-21T13:08:22.293+0300	WARN	sql: expected 2 arguments, got 1
+2019-10-21T13:08:27.294+0300	WARN	sql: expected 2 arguments, got 1
+2019-10-21T13:08:32.295+0300	WARN	sql: expected 2 arguments, got 1
+2019-10-21T13:08:34.799+0300	INFO	backup: worker closed
+2019-10-21T13:08:34.799+0300	INFO	http: Server closed
+2019-10-21T13:09:38.630+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T13:09:38.631+0300	INFO	migrations complete
+2019-10-21T13:09:39.604+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T13:10:15.798+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T13:10:15.799+0300	INFO	migrations complete
+2019-10-21T13:10:17.594+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T13:10:53.408+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T13:10:53.410+0300	INFO	migrations complete
+2019-10-21T13:10:56.617+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T13:11:35.834+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T13:11:35.836+0300	INFO	migrations complete
+2019-10-21T13:12:32.675+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T13:12:32.677+0300	INFO	migrations complete
+2019-10-21T13:12:34.341+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T13:13:22.005+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T13:13:22.006+0300	INFO	migrations complete
+2019-10-21T13:15:35.976+0300	INFO	backup: Server closed
+2019-10-21T13:15:35.976+0300	INFO	http: Server closed
+2019-10-21T13:15:38.483+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T13:15:38.485+0300	INFO	migrations complete
+2019-10-21T13:15:57.285+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T13:15:58.490+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T13:15:58.490+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T13:16:03.492+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T13:16:03.492+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T13:16:08.493+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T13:16:08.493+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T13:16:13.495+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T13:16:13.497+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T13:16:18.499+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T13:16:18.501+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T13:16:21.438+0300	INFO	backup: Server closed
+2019-10-21T13:16:21.438+0300	INFO	http: Server closed
+2019-10-21T13:16:45.705+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T13:16:45.706+0300	INFO	migrations complete
+2019-10-21T13:16:49.977+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T13:18:16.943+0300	WARN	user: user is already exist
+2019-10-21T13:18:16.944+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 400, "size": 40}
+2019-10-21T13:18:18.135+0300	WARN	user: user is already exist
+2019-10-21T13:18:18.135+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 400, "size": 40}
+2019-10-21T13:18:18.705+0300	WARN	user: user is already exist
+2019-10-21T13:18:18.705+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 400, "size": 40}
+2019-10-21T13:18:25.976+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T13:18:40.376+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T13:18:46.256+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T13:19:05.223+0300	INFO	backup: Server closed
+2019-10-21T13:19:05.223+0300	INFO	http: Server closed
+2019-10-21T13:19:08.194+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T13:19:08.196+0300	INFO	migrations complete
+2019-10-21T13:19:10.876+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T13:19:13.198+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T13:19:13.198+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T13:19:14.831+0300	INFO	backup: Server closed
+2019-10-21T13:19:14.831+0300	INFO	http: Server closed
+2019-10-21T13:22:05.441+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T13:22:05.442+0300	INFO	migrations complete
+2019-10-21T13:22:05.443+0300	WARN	scannable dest type slice with >1 columns (2) in result
+2019-10-21T13:22:25.755+0300	INFO	backup: Server closed
+2019-10-21T13:22:25.755+0300	INFO	http: Server closed
+2019-10-21T13:22:28.111+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T13:22:28.112+0300	INFO	migrations complete
+2019-10-21T13:22:57.397+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T13:22:58.121+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T13:22:58.121+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T13:23:01.443+0300	INFO	backup: Server closed
+2019-10-21T13:23:01.443+0300	INFO	http: Server closed
+2019-10-21T13:23:03.742+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T13:23:03.743+0300	INFO	migrations complete
+2019-10-21T13:23:03.744+0300	WARN	scannable dest type slice with >1 columns (2) in result
+2019-10-21T13:23:25.468+0300	INFO	backup: Server closed
+2019-10-21T13:23:25.468+0300	INFO	http: Server closed
+2019-10-21T13:23:28.142+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T13:23:28.144+0300	INFO	migrations complete
+2019-10-21T13:35:15.393+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T13:35:15.395+0300	INFO	migrations complete
+2019-10-21T13:47:01.064+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T13:47:01.066+0300	INFO	migrations complete
+2019-10-21T13:47:10.516+0300	WARN	user: user is already exist
+2019-10-21T13:47:10.516+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 400, "size": 40}
+2019-10-21T13:47:14.308+0300	WARN	user: user is already exist
+2019-10-21T13:47:14.308+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 400, "size": 40}
+2019-10-21T13:47:23.374+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T13:47:29.119+0300	WARN	user: user is already exist
+2019-10-21T13:47:29.119+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 400, "size": 40}
+2019-10-21T14:11:01.967+0300	INFO	http: Server closed
+2019-10-21T14:11:01.968+0300	INFO	backup: Server closed
+2019-10-21T14:11:04.415+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T14:11:04.417+0300	INFO	migrations complete
+2019-10-21T14:11:09.419+0300	WARN	pq: syntax error at or near ":"
+2019-10-21T14:11:14.421+0300	WARN	pq: syntax error at or near ":"
+2019-10-21T14:11:19.423+0300	WARN	pq: syntax error at or near ":"
+2019-10-21T14:11:24.424+0300	WARN	pq: syntax error at or near ":"
+2019-10-21T14:11:25.797+0300	INFO	backup: Server closed
+2019-10-21T14:11:25.797+0300	INFO	http: Server closed
+2019-10-21T14:12:05.276+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T14:12:05.278+0300	INFO	migrations complete
+2019-10-21T14:12:10.280+0300	WARN	pq: syntax error at or near ":"
+2019-10-21T14:12:15.282+0300	WARN	pq: syntax error at or near ":"
+2019-10-21T14:12:18.114+0300	INFO	backup: Server closed
+2019-10-21T14:12:18.114+0300	INFO	http: Server closed
+2019-10-21T14:12:20.493+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T14:12:20.494+0300	INFO	migrations complete
+2019-10-21T14:12:35.687+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 29}
+2019-10-21T14:12:37.736+0300	WARN	deposit: deposit is already exist
+2019-10-21T14:12:37.736+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 400, "size": 46}
+2019-10-21T14:12:40.501+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:12:40.501+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:12:45.503+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:12:45.503+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:12:50.504+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:12:50.504+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:12:55.046+0300	INFO	http: Server closed
+2019-10-21T14:12:55.046+0300	INFO	backup: Server closed
+2019-10-21T14:13:42.652+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T14:13:42.653+0300	INFO	migrations complete
+2019-10-21T14:14:04.143+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T14:14:14.534+0300	WARN	user: user isn't exist
+2019-10-21T14:14:14.534+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 400, "size": 35}
+2019-10-21T14:14:27.301+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 32}
+2019-10-21T14:14:27.670+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:14:27.670+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:14:32.671+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:14:32.671+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:14:37.673+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:14:37.673+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:14:42.675+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:14:42.675+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:14:47.676+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:14:47.676+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:14:52.678+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:14:52.678+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:14:53.721+0300	INFO	http: Server closed
+2019-10-21T14:14:53.721+0300	INFO	backup: Server closed
+2019-10-21T14:15:32.906+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T14:15:32.908+0300	INFO	migrations complete
+2019-10-21T14:15:37.910+0300	WARN	pq: syntax error at or near ":"
+2019-10-21T14:15:42.912+0300	WARN	pq: syntax error at or near ":"
+2019-10-21T14:15:46.325+0300	INFO	backup: Server closed
+2019-10-21T14:15:46.325+0300	INFO	http: Server closed
+2019-10-21T14:16:34.140+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T14:16:34.142+0300	INFO	migrations complete
+2019-10-21T14:24:32.872+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T14:24:32.875+0300	INFO	migrations complete
+2019-10-21T14:25:02.649+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T14:25:02.651+0300	INFO	migrations complete
+2019-10-21T14:25:45.543+0300	WARN	pq: syntax error at or near ":"
+2019-10-21T14:27:52.461+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T14:27:52.463+0300	INFO	migrations complete
+2019-10-21T14:28:10.181+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T14:28:10.183+0300	INFO	migrations complete
+2019-10-21T14:28:37.021+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T14:28:47.045+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 103}
+2019-10-21T14:28:51.130+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 30}
+2019-10-21T14:28:55.203+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:28:55.203+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:29:00.205+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:29:00.205+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:29:05.206+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:29:05.206+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:29:10.208+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:29:10.208+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:29:15.209+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:29:15.210+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:29:20.211+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:29:20.211+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:29:25.213+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:29:25.213+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:29:30.214+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:29:30.215+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:29:31.474+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 32}
+2019-10-21T14:29:34.505+0300	WARN	transaction: transaction is already exist
+2019-10-21T14:29:34.505+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 400, "size": 54}
+2019-10-21T14:29:35.216+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:29:35.216+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:29:40.218+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:29:40.218+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:29:45.219+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:29:45.219+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:29:47.779+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 32}
+2019-10-21T14:29:50.221+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:29:50.221+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:29:52.876+0300	WARN	transaction: transaction is already exist
+2019-10-21T14:29:52.876+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 400, "size": 54}
+2019-10-21T14:29:55.223+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:29:55.223+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:29:56.238+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 30}
+2019-10-21T14:30:00.224+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:30:00.224+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:30:05.226+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:30:05.226+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:30:10.227+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:30:10.228+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:30:15.229+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:30:15.229+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:30:20.231+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:30:20.231+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:30:25.232+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:30:25.232+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:30:30.234+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:30:30.234+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:30:35.238+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:30:35.239+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:30:40.240+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:30:40.240+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:30:45.242+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:30:45.242+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:30:50.243+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:30:50.243+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:30:55.245+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:30:55.245+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:31:00.247+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:31:00.247+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:31:05.248+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:31:05.248+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:31:10.250+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:31:10.250+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:31:15.252+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:31:15.252+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:31:20.254+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:31:20.254+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:31:25.256+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:31:25.256+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:31:30.257+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:31:30.260+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:31:35.262+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:31:35.262+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:31:40.263+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:31:40.263+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:31:45.264+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:31:45.265+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:31:50.266+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:31:50.266+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:31:55.268+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:31:55.268+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:32:00.269+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:32:00.270+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:32:05.271+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:32:05.271+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:32:10.273+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:32:10.273+0300	WARN	pq: duplicate key value violates unique constraint "deposits_pk"
+2019-10-21T14:32:14.929+0300	INFO	http: Server closed
+2019-10-21T14:32:14.929+0300	INFO	backup: Server closed
+2019-10-21T14:35:40.799+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T14:35:40.801+0300	INFO	migrations complete
+2019-10-21T14:36:45.568+0300	WARN	user: user is already exist
+2019-10-21T14:36:45.568+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 400, "size": 40}
+2019-10-21T14:36:53.256+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T14:37:03.292+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 103}
+2019-10-21T14:37:06.909+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 30}
+2019-10-21T14:37:10.838+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:37:10.838+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:37:11.746+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 30}
+2019-10-21T14:37:15.839+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:37:15.839+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:37:20.841+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:37:20.841+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:37:25.843+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:37:25.843+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:37:30.844+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:37:30.844+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:37:35.846+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:37:35.846+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:37:40.847+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:37:40.848+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:37:45.849+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:37:45.849+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:37:50.851+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:37:50.851+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:37:55.852+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:37:55.853+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:38:00.854+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:38:00.854+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:38:05.856+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:38:05.856+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:38:06.909+0300	INFO	http: Server closed
+2019-10-21T14:38:06.909+0300	INFO	backup: Server closed
+2019-10-21T14:38:12.822+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T14:38:12.823+0300	INFO	migrations complete
+2019-10-21T14:38:15.215+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 30}
+2019-10-21T14:38:17.830+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:38:17.830+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:38:22.831+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:38:22.832+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:38:27.833+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:38:27.833+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:38:32.835+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:38:32.835+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:38:37.836+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:38:37.837+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:38:42.838+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:38:42.838+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:38:47.840+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:38:47.840+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:38:52.842+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:38:52.842+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:38:57.843+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:38:57.844+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:39:02.845+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:39:02.845+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:39:07.847+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:39:07.847+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:39:12.848+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:39:12.848+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:39:17.850+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:39:17.850+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:39:22.852+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:39:22.852+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:39:27.853+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:39:27.853+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:39:32.855+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:39:32.855+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:39:37.856+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:39:37.857+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:39:43.478+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T14:39:43.483+0300	INFO	migrations complete
+2019-10-21T14:39:43.486+0300	WARN	scannable dest type slice with >1 columns (8) in result
+2019-10-21T14:40:33.896+0300	INFO	instance/zap.go:47	connect to db	{"status": "connected"}
+2019-10-21T14:40:33.898+0300	INFO	instance/zap.go:47	migrations complete
+2019-10-21T14:40:33.902+0300	WARN	instance/zap.go:51	scannable dest type slice with >1 columns (8) in result
+2019-10-21T14:40:58.978+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T14:40:58.979+0300	INFO	migrations complete
+2019-10-21T14:41:08.198+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 30}
+2019-10-21T14:41:08.986+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:41:08.986+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:41:13.987+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:41:13.987+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:41:18.989+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:41:18.989+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:41:23.990+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:41:23.990+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:41:28.992+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:41:28.992+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:41:33.993+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:41:33.995+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:41:38.997+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:41:38.999+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:41:43.410+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T14:41:43.411+0300	INFO	migrations complete
+2019-10-21T14:41:44.054+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 30}
+2019-10-21T14:41:48.414+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:41:48.414+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:41:53.415+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:41:53.416+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:41:58.417+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:41:58.417+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:42:03.419+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:42:03.419+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:42:08.428+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:42:08.428+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:42:14.656+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T14:42:14.658+0300	INFO	migrations complete
+2019-10-21T14:42:42.596+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 30}
+2019-10-21T14:42:46.447+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:42:46.447+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:42:51.449+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:42:51.449+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:42:56.450+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:42:56.451+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:43:01.452+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:43:01.452+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:43:06.454+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:43:06.454+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:43:11.455+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:43:11.456+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:43:16.457+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:43:16.457+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:43:21.459+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:43:21.459+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:43:26.460+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:43:26.460+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:43:31.462+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:43:31.462+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:43:36.463+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:43:36.464+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:43:41.465+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:43:41.468+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:43:46.469+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:43:46.469+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:43:51.471+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:43:51.471+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:43:56.472+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:43:56.472+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:44:01.474+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:44:01.477+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:44:06.478+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:44:06.481+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:44:13.048+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T14:44:13.049+0300	INFO	migrations complete
+2019-10-21T14:44:49.283+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 30}
+2019-10-21T14:44:53.061+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:44:53.061+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:44:58.063+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:44:58.066+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:45:03.068+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:45:03.068+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:45:08.070+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:45:08.070+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:45:13.071+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:45:13.071+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:45:18.073+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:45:18.073+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:45:23.075+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:45:23.075+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:45:28.076+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:45:28.076+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:45:33.078+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:45:33.078+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:45:38.079+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:45:38.079+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:45:43.081+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:45:43.081+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:45:47.737+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 31}
+2019-10-21T14:45:48.083+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:45:48.083+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:45:53.084+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:45:53.084+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:45:58.086+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:45:58.086+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:46:03.087+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:46:03.088+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:46:08.089+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:46:08.089+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:46:13.091+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:46:13.091+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:46:18.093+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:46:18.093+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:46:23.094+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:46:23.095+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:46:28.096+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:46:28.096+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:46:33.098+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:46:33.098+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:46:38.100+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:46:38.100+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:46:43.102+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:46:43.103+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:46:48.104+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:46:48.104+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:46:53.106+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:46:53.106+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:46:58.108+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:46:58.108+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:47:03.109+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:47:03.109+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:47:08.111+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:47:08.111+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:47:13.113+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:47:13.113+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:47:19.363+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T14:47:19.365+0300	INFO	migrations complete
+2019-10-21T14:47:29.878+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 31}
+2019-10-21T14:47:34.371+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:47:34.372+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:47:39.373+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:47:39.373+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:47:44.375+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:47:44.375+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:47:49.376+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:47:49.376+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:47:54.378+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:47:54.378+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:47:59.379+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:47:59.379+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:48:04.381+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:48:04.381+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:48:09.383+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:48:09.383+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:48:14.384+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:48:14.387+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:48:19.388+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:48:19.389+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:48:24.393+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:48:24.395+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:48:29.396+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:48:29.400+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:48:34.402+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:48:34.402+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:48:39.406+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:48:39.406+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:48:44.408+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:48:44.408+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:48:49.409+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:48:49.409+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:48:54.411+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T14:48:54.411+0300	WARN	pq: duplicate key value violates unique constraint "users_pk"
+2019-10-21T14:53:12.846+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T14:53:12.852+0300	INFO	migrations complete
+2019-10-21T14:53:31.920+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 30}
+2019-10-21T14:53:46.569+0300	WARN	deposit: deposit is already exist
+2019-10-21T14:53:46.569+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 400, "size": 46}
+2019-10-21T14:53:48.853+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 31}
+2019-10-21T14:53:54.401+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 103}
+2019-10-21T14:54:14.492+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 117}
+2019-10-21T14:54:24.438+0300	WARN	transaction: transaction is already exist
+2019-10-21T14:54:24.438+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 400, "size": 54}
+2019-10-21T14:54:35.445+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 32}
+2019-10-21T15:06:55.981+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T15:06:55.994+0300	INFO	migrations complete
+2019-10-21T15:07:04.986+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 31}
+2019-10-21T15:07:06.003+0300	WARN	could not find name transaction_type_id in (**models.Transaction)(0xc0000101b0)
+2019-10-21T15:07:11.005+0300	WARN	could not find name transaction_type_id in (**models.Transaction)(0xc000132080)
+2019-10-21T15:07:16.008+0300	WARN	could not find name transaction_type_id in (**models.Transaction)(0xc00011e158)
+2019-10-21T15:07:17.902+0300	INFO	http: Server closed
+2019-10-21T15:07:17.902+0300	INFO	backup: Server closed
+2019-10-21T15:08:07.452+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T15:08:07.453+0300	INFO	migrations complete
+2019-10-21T15:08:08.491+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 31}
+2019-10-21T15:08:12.462+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T15:08:12.462+0300	WARN	pq: invalid input syntax for integer: "15.5555"
+2019-10-21T15:08:17.464+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T15:08:17.464+0300	WARN	pq: invalid input syntax for integer: "15.5555"
+2019-10-21T15:08:18.435+0300	INFO	backup: Server closed
+2019-10-21T15:08:18.435+0300	INFO	http: Server closed
+2019-10-21T15:16:40.771+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T15:16:40.773+0300	INFO	migrations complete
+2019-10-21T15:16:44.026+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 31}
+2019-10-21T15:16:45.780+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T15:16:45.780+0300	WARN	pq: invalid input syntax for integer: "15.5555"
+2019-10-21T15:16:50.783+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T15:16:50.783+0300	WARN	pq: invalid input syntax for integer: "15.5555"
+2019-10-21T15:16:55.785+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T15:16:55.785+0300	WARN	pq: invalid input syntax for integer: "15.5555"
+2019-10-21T15:17:00.788+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T15:17:00.788+0300	WARN	pq: invalid input syntax for integer: "15.5555"
+2019-10-21T15:17:05.790+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T15:17:05.790+0300	WARN	pq: invalid input syntax for integer: "15.5555"
+2019-10-21T15:17:06.184+0300	INFO	http: Server closed
+2019-10-21T15:17:06.184+0300	INFO	backup: Server closed
+2019-10-21T15:19:42.874+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T15:19:42.876+0300	INFO	migrations complete
+2019-10-21T15:19:44.127+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 31}
+2019-10-21T15:19:47.886+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T15:19:47.886+0300	WARN	pq: invalid input syntax for integer: "15.5555"
+2019-10-21T15:19:52.888+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T15:19:52.889+0300	WARN	pq: invalid input syntax for integer: "15.5555"
+2019-10-21T15:19:57.773+0300	INFO	http: Server closed
+2019-10-21T15:19:57.773+0300	INFO	backup: Server closed
+2019-10-21T15:20:27.686+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T15:20:27.687+0300	INFO	migrations complete
+2019-10-21T15:20:35.034+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 31}
+2019-10-21T15:21:56.052+0300	WARN	transaction: transaction is already exist
+2019-10-21T15:21:56.052+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 400, "size": 54}
+2019-10-21T15:22:00.986+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 30}
+2019-10-21T15:22:04.133+0300	WARN	deposit: deposit is already exist
+2019-10-21T15:22:04.133+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 400, "size": 46}
+2019-10-21T15:22:07.669+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 30}
+2019-10-21T15:23:02.028+0300	WARN	deposit: deposit is already exist
+2019-10-21T15:23:02.028+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 400, "size": 46}
+2019-10-21T15:23:06.296+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 30}
+2019-10-21T15:24:38.284+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 30}
+2019-10-21T15:26:06.957+0300	WARN	transaction: transaction is already exist
+2019-10-21T15:26:06.958+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 400, "size": 54}
+2019-10-21T15:26:10.556+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 31}
+2019-10-21T15:27:47.341+0300	INFO	http: Server closed
+2019-10-21T15:27:47.341+0300	INFO	backup: Server closed
+2019-10-21T15:27:49.716+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T15:27:49.717+0300	INFO	migrations complete
+2019-10-21T15:27:52.005+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 31}
+2019-10-21T15:27:54.727+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T15:27:54.727+0300	WARN	pq: duplicate key value violates unique constraint "transaction_pk"
+2019-10-21T15:27:59.730+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T15:27:59.730+0300	WARN	pq: duplicate key value violates unique constraint "transaction_pk"
+2019-10-21T15:28:04.732+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T15:28:04.733+0300	WARN	pq: duplicate key value violates unique constraint "transaction_pk"
+2019-10-21T15:28:09.735+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T15:28:09.735+0300	WARN	pq: duplicate key value violates unique constraint "transaction_pk"
+2019-10-21T15:28:14.738+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T15:28:14.738+0300	WARN	pq: duplicate key value violates unique constraint "transaction_pk"
+2019-10-21T15:28:16.613+0300	WARN	transaction: transaction is already exist
+2019-10-21T15:28:16.613+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 400, "size": 54}
+2019-10-21T15:28:19.740+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T15:28:19.740+0300	WARN	pq: duplicate key value violates unique constraint "transaction_pk"
+2019-10-21T15:28:20.827+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 30}
+2019-10-21T15:28:24.605+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 32}
+2019-10-21T15:28:24.752+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T15:28:24.752+0300	WARN	pq: duplicate key value violates unique constraint "transaction_pk"
+2019-10-21T15:28:29.755+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T15:28:29.755+0300	WARN	pq: duplicate key value violates unique constraint "transaction_pk"
+2019-10-21T15:28:34.757+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T15:28:34.757+0300	WARN	pq: duplicate key value violates unique constraint "transaction_pk"
+2019-10-21T15:28:37.944+0300	INFO	http: Server closed
+2019-10-21T15:28:37.944+0300	INFO	backup: Server closed
+2019-10-21T15:28:57.093+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T15:28:57.094+0300	INFO	migrations complete
+2019-10-21T15:29:04.783+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 30}
+2019-10-21T15:29:08.659+0300	WARN	deposit: deposit is already exist
+2019-10-21T15:29:08.659+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 400, "size": 46}
+2019-10-21T15:29:12.672+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 30}
+2019-10-21T15:29:26.649+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 32}
+2019-10-21T15:29:28.930+0300	WARN	transaction: transaction is already exist
+2019-10-21T15:29:28.930+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 400, "size": 54}
+2019-10-21T15:29:32.036+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 31}
+2019-10-21T15:29:48.329+0300	WARN	transaction: transaction is already exist
+2019-10-21T15:29:48.329+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 400, "size": 54}
+2019-10-21T15:29:51.663+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 32}
+2019-10-21T15:30:28.962+0300	INFO	backup: Server closed
+2019-10-21T15:30:28.962+0300	INFO	http: Server closed
+2019-10-21T15:30:31.238+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T15:30:31.240+0300	INFO	migrations complete
+2019-10-21T15:30:37.214+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 32}
+2019-10-21T15:30:41.251+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T15:30:41.251+0300	WARN	pq: duplicate key value violates unique constraint "transaction_pk"
+2019-10-21T15:30:43.173+0300	INFO	http: Server closed
+2019-10-21T15:30:43.173+0300	INFO	backup: Server closed
+2019-10-21T16:53:31.262+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T16:53:31.297+0300	INFO	migrations complete
+2019-10-21T16:53:36.381+0300	WARN	user: user isn't exist
+2019-10-21T16:53:36.381+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 400, "size": 35}
+2019-10-21T16:53:40.381+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T16:53:42.440+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 103}
+2019-10-21T16:53:45.526+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 30}
+2019-10-21T16:53:49.999+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 31}
+2019-10-21T16:53:51.335+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T16:53:51.335+0300	WARN	pq: insert or update on table "transactions" violates foreign key constraint "transaction_types___fk"
+2019-10-21T16:53:56.340+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T16:53:56.341+0300	WARN	pq: insert or update on table "transactions" violates foreign key constraint "transaction_types___fk"
+2019-10-21T16:54:01.347+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T16:54:01.348+0300	WARN	pq: insert or update on table "transactions" violates foreign key constraint "transaction_types___fk"
+2019-10-21T16:54:06.354+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T16:54:06.354+0300	WARN	pq: insert or update on table "transactions" violates foreign key constraint "transaction_types___fk"
+2019-10-21T16:54:11.359+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T16:54:11.359+0300	WARN	pq: insert or update on table "transactions" violates foreign key constraint "transaction_types___fk"
+2019-10-21T16:54:16.365+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T16:54:16.365+0300	WARN	pq: insert or update on table "transactions" violates foreign key constraint "transaction_types___fk"
+2019-10-21T16:54:21.371+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T16:54:21.371+0300	WARN	pq: insert or update on table "transactions" violates foreign key constraint "transaction_types___fk"
+2019-10-21T16:54:26.377+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T16:54:26.377+0300	WARN	pq: insert or update on table "transactions" violates foreign key constraint "transaction_types___fk"
+2019-10-21T16:54:31.385+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T16:54:31.385+0300	WARN	pq: insert or update on table "transactions" violates foreign key constraint "transaction_types___fk"
+2019-10-21T16:54:33.348+0300	INFO	backup: Server closed
+2019-10-21T16:54:33.349+0300	INFO	http: Server closed
+2019-10-21T16:59:03.452+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T16:59:03.455+0300	INFO	migrations complete
+2019-10-21T17:00:17.634+0300	INFO	backup: Server closed
+2019-10-21T17:00:17.634+0300	INFO	http: Server closed
+2019-10-21T17:00:21.829+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T17:00:21.831+0300	INFO	migrations complete
+2019-10-21T17:01:06.640+0300	INFO	backup: Server closed
+2019-10-21T17:01:06.640+0300	INFO	http: Server closed
+2019-10-21T17:01:10.791+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T17:01:10.794+0300	INFO	migrations complete
+2019-10-21T17:02:01.289+0300	INFO	backup: Server closed
+2019-10-21T17:02:01.289+0300	INFO	http: Server closed
+2019-10-21T17:02:05.455+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T17:02:05.463+0300	INFO	migrations complete
+2019-10-21T17:02:17.854+0300	WARN	deposit: deposit is already exist
+2019-10-21T17:02:17.855+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 400, "size": 46}
+2019-10-21T17:02:31.782+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 31}
+2019-10-21T17:02:34.583+0300	WARN	transaction: transaction is already exist
+2019-10-21T17:02:34.583+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 400, "size": 54}
+2019-10-21T17:02:39.366+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 30}
+2019-10-21T17:02:50.681+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 30}
+2019-10-21T17:02:53.252+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 115}
+2019-10-21T17:03:07.711+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 31}
+2019-10-21T17:03:11.792+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 122}
+2019-10-21T17:03:18.798+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 30}
+2019-10-21T17:03:21.701+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 120}
+2019-10-21T17:10:06.826+0300	INFO	backup: Server closed
+2019-10-21T17:10:06.826+0300	INFO	http: Server closed
+2019-10-21T17:10:34.774+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T17:10:34.778+0300	INFO	migrations complete
+2019-10-21T17:14:34.924+0300	WARN	pq: relation "users" does not exist
+2019-10-21T17:14:35.320+0300	INFO	backup: Server closed
+2019-10-21T17:14:35.320+0300	INFO	http: Server closed
+2019-10-21T17:14:39.359+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T17:14:39.395+0300	INFO	migrations complete
+2019-10-21T17:15:02.977+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T17:15:06.905+0300	WARN	user: user is already exist
+2019-10-21T17:15:06.905+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 400, "size": 40}
+2019-10-21T17:15:09.144+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T17:15:17.115+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T17:15:35.570+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 103}
+2019-10-21T17:15:41.407+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 30}
+2019-10-21T17:15:48.556+0300	WARN	deposit: amount is invalid
+2019-10-21T17:15:48.557+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 400, "size": 39}
+2019-10-21T17:15:59.813+0300	WARN	user: user is already exist
+2019-10-21T17:15:59.813+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 400, "size": 40}
+2019-10-21T17:16:05.369+0300	WARN	json: cannot unmarshal number -10 into Go struct field User.id of type uint64
+2019-10-21T17:16:05.370+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 400, "size": 30}
+2019-10-21T17:16:10.802+0300	WARN	json: cannot unmarshal number -10 into Go struct field User.id of type uint64
+2019-10-21T17:16:10.802+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 400, "size": 30}
+2019-10-21T17:16:14.286+0300	WARN	user: user is already exist
+2019-10-21T17:16:14.286+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 400, "size": 40}
+2019-10-21T17:16:17.622+0300	WARN	user: user is already exist
+2019-10-21T17:16:17.623+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 400, "size": 40}
+2019-10-21T17:16:22.355+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T17:16:26.411+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 32}
+2019-10-21T17:16:29.954+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 31}
+2019-10-21T17:16:34.844+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 32}
+2019-10-21T17:16:38.588+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 30}
+2019-10-21T17:17:00.367+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 103}
+2019-10-21T17:17:04.798+0300	INFO	served	{"path": "/user/get", "method": "POST", "status": 200, "size": 120}
+2019-10-21T17:17:14.213+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 30}
+2019-10-21T17:17:26.465+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 30}
+2019-10-21T17:18:46.751+0300	INFO	backup: Server closed
+2019-10-21T17:18:46.751+0300	INFO	http: Server closed
+2019-10-21T17:18:50.912+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T17:18:50.915+0300	INFO	migrations complete
+2019-10-21T17:18:50.919+0300	WARN	scannable dest type slice with >1 columns (8) in result
+2019-10-21T17:19:13.043+0300	INFO	backup: Server closed
+2019-10-21T17:19:13.043+0300	INFO	http: Server closed
+2019-10-21T17:19:17.036+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T17:19:17.039+0300	INFO	migrations complete
+2019-10-21T17:19:26.435+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 32}
+2019-10-21T17:19:27.054+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T17:19:27.054+0300	WARN	pq: duplicate key value violates unique constraint "transaction_pk"
+2019-10-21T17:19:35.218+0300	INFO	backup: Server closed
+2019-10-21T17:19:35.218+0300	INFO	http: Server closed
+2019-10-21T17:19:38.982+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T17:19:38.985+0300	INFO	migrations complete
+2019-10-21T17:19:44.516+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 31}
+2019-10-21T17:19:47.707+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 30}
+2019-10-21T17:19:48.999+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T17:19:49.000+0300	WARN	pq: duplicate key value violates unique constraint "transaction_pk"
+2019-10-21T17:19:59.006+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T17:19:59.006+0300	WARN	pq: duplicate key value violates unique constraint "transaction_pk"
+2019-10-21T17:20:09.013+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T17:20:09.013+0300	WARN	pq: duplicate key value violates unique constraint "transaction_pk"
+2019-10-21T17:20:14.972+0300	INFO	backup: Server closed
+2019-10-21T17:20:14.972+0300	INFO	http: Server closed
+2019-10-21T17:20:18.497+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T17:20:18.500+0300	INFO	migrations complete
+2019-10-21T17:20:19.374+0300	INFO	backup: Server closed
+2019-10-21T17:20:19.374+0300	INFO	http: Server closed
+2019-10-21T17:22:59.502+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T17:22:59.505+0300	INFO	migrations complete
+2019-10-21T17:23:11.644+0300	INFO	backup: Server closed
+2019-10-21T17:23:11.644+0300	INFO	http: Server closed
+2019-10-21T17:23:15.727+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T17:23:15.730+0300	INFO	migrations complete
+2019-10-21T17:23:42.784+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 31}
+2019-10-21T17:23:45.756+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T17:23:45.756+0300	WARN	pq: duplicate key value violates unique constraint "transaction_pk"
+2019-10-21T17:23:55.763+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T17:23:55.764+0300	WARN	pq: duplicate key value violates unique constraint "transaction_pk"
+2019-10-21T17:24:05.774+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T17:24:05.774+0300	WARN	pq: duplicate key value violates unique constraint "transaction_pk"
+2019-10-21T17:24:15.780+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T17:24:15.780+0300	WARN	pq: duplicate key value violates unique constraint "transaction_pk"
+2019-10-21T17:24:25.786+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T17:24:25.787+0300	WARN	pq: duplicate key value violates unique constraint "transaction_pk"
+2019-10-21T17:24:35.794+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T17:24:35.794+0300	WARN	pq: duplicate key value violates unique constraint "transaction_pk"
+2019-10-21T17:24:45.802+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T17:24:45.802+0300	WARN	pq: duplicate key value violates unique constraint "transaction_pk"
+2019-10-21T17:24:55.809+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T17:24:55.810+0300	WARN	pq: duplicate key value violates unique constraint "transaction_pk"
+2019-10-21T17:25:05.816+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T17:25:05.816+0300	WARN	pq: duplicate key value violates unique constraint "transaction_pk"
+2019-10-21T17:25:15.823+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T17:25:15.823+0300	WARN	pq: duplicate key value violates unique constraint "transaction_pk"
+2019-10-21T17:25:25.831+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T17:25:25.831+0300	WARN	pq: duplicate key value violates unique constraint "transaction_pk"
+2019-10-21T17:25:35.837+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T17:25:35.837+0300	WARN	pq: duplicate key value violates unique constraint "transaction_pk"
+2019-10-21T17:25:45.844+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T17:25:45.845+0300	WARN	pq: duplicate key value violates unique constraint "transaction_pk"
+2019-10-21T17:25:55.850+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T17:25:55.851+0300	WARN	pq: duplicate key value violates unique constraint "transaction_pk"
+2019-10-21T17:26:05.858+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T17:26:05.858+0300	WARN	pq: duplicate key value violates unique constraint "transaction_pk"
+2019-10-21T17:26:15.866+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T17:26:15.866+0300	WARN	pq: duplicate key value violates unique constraint "transaction_pk"
+2019-10-21T17:26:23.225+0300	INFO	backup: Server closed
+2019-10-21T17:26:23.226+0300	INFO	http: Server closed
+2019-10-21T17:26:27.238+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T17:26:27.241+0300	INFO	migrations complete
+2019-10-21T17:27:18.264+0300	INFO	backup: Server closed
+2019-10-21T17:27:18.265+0300	INFO	http: Server closed
+2019-10-21T17:31:21.213+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T17:31:21.216+0300	INFO	migrations complete
+2019-10-21T17:31:33.772+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 31}
+2019-10-21T17:31:41.240+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T17:31:41.240+0300	WARN	pq: duplicate key value violates unique constraint "transaction_pk"
+2019-10-21T17:31:51.247+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T17:31:51.247+0300	WARN	pq: duplicate key value violates unique constraint "transaction_pk"
+2019-10-21T17:32:01.253+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T17:32:01.254+0300	WARN	pq: duplicate key value violates unique constraint "transaction_pk"
+2019-10-21T17:33:41.746+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T17:33:41.750+0300	INFO	migrations complete
+2019-10-21T17:34:12.135+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 31}
+2019-10-21T17:34:12.142+0300	WARN	pq: Could not complete operation in a failed transaction
+2019-10-21T17:34:12.143+0300	WARN	pq: duplicate key value violates unique constraint "transaction_pk"
+2019-10-21T17:35:19.173+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T17:35:19.177+0300	INFO	migrations complete
+2019-10-21T17:37:03.282+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T17:37:03.286+0300	INFO	migrations complete
+2019-10-21T17:38:23.032+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T17:38:23.036+0300	INFO	migrations complete
+2019-10-21T17:38:23.040+0300	WARN	pq: column reference "id" is ambiguous
+2019-10-21T17:38:40.909+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T17:38:40.913+0300	INFO	migrations complete
+2019-10-21T17:38:40.918+0300	WARN	pq: invalid reference to FROM-clause entry for table "transactions"
+2019-10-21T17:38:45.587+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T17:38:45.590+0300	INFO	migrations complete
+2019-10-21T17:43:58.869+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T17:43:58.873+0300	INFO	migrations complete
+2019-10-21T17:44:36.281+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T17:44:36.285+0300	INFO	migrations complete
+2019-10-21T17:44:36.289+0300	WARN	sql: Scan called without calling Next
+2019-10-21T17:45:10.768+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T17:45:10.772+0300	INFO	migrations complete
+2019-10-21T17:46:49.962+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T17:46:49.965+0300	INFO	migrations complete
+2019-10-21T17:48:11.537+0300	WARN	deposit: deposit is already exist
+2019-10-21T17:48:11.537+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 400, "size": 46}
+2019-10-21T17:50:07.639+0300	FATAL	sql: unknown driver "postgres" (forgotten import?)
+2019-10-21T17:50:22.421+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T17:50:22.425+0300	INFO	migrations complete
+2019-10-21T17:51:15.532+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T17:51:15.536+0300	INFO	migrations complete
+2019-10-21T17:52:39.770+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T17:52:39.774+0300	INFO	migrations complete
+2019-10-21T17:53:22.411+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T17:53:22.415+0300	INFO	migrations complete
+2019-10-21T17:53:22.421+0300	WARN	scannable dest type slice with >1 columns (8) in result
+2019-10-21T17:53:43.148+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T17:53:43.152+0300	INFO	migrations complete
+2019-10-21T17:54:41.023+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T17:54:41.027+0300	INFO	migrations complete
+2019-10-21T17:55:07.591+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T17:55:07.595+0300	INFO	migrations complete
+2019-10-21T17:55:32.806+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T17:55:32.810+0300	INFO	migrations complete
+2019-10-21T17:56:00.678+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T17:56:00.682+0300	INFO	migrations complete
+2019-10-21T17:56:00.688+0300	WARN	missing destination name row in *[]*models.Transaction
+2019-10-21T17:56:18.003+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T17:56:18.007+0300	INFO	migrations complete
+2019-10-21T17:56:37.300+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T17:56:37.304+0300	INFO	migrations complete
+2019-10-21T17:56:37.310+0300	WARN	missing destination name row in *[]*models.Transaction
+2019-10-21T17:59:03.477+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T17:59:03.481+0300	INFO	migrations complete
+2019-10-21T17:59:03.487+0300	WARN	missing destination name transaction_type_id in *[]*models.Transaction
+2019-10-21T17:59:28.653+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T17:59:28.657+0300	INFO	migrations complete
+2019-10-21T18:00:32.588+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T18:00:32.623+0300	INFO	migrations complete
+2019-10-21T18:00:50.710+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T18:00:58.708+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 30}
+2019-10-21T18:01:04.964+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 31}
+2019-10-21T18:01:13.123+0300	WARN	transaction: transaction is already exist
+2019-10-21T18:01:13.123+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 400, "size": 54}
+2019-10-21T18:01:20.535+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T18:01:20.539+0300	INFO	migrations complete
+2019-10-21T18:03:06.490+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T18:03:06.494+0300	INFO	migrations complete
+2019-10-21T18:03:06.500+0300	WARN	sql: expected 8 destination arguments in Scan, not 1
+2019-10-21T18:03:35.163+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T18:03:35.167+0300	INFO	migrations complete
+2019-10-21T18:03:35.173+0300	WARN	sql: expected 8 destination arguments in Scan, not 1
+2019-10-21T18:03:45.875+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T18:03:45.879+0300	INFO	migrations complete
+2019-10-21T18:05:12.546+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T18:05:12.550+0300	INFO	migrations complete
+2019-10-21T18:05:30.103+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T18:05:30.107+0300	INFO	migrations complete
+2019-10-21T18:06:33.946+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T18:06:33.950+0300	INFO	migrations complete
+2019-10-21T18:07:43.733+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T18:07:43.737+0300	INFO	migrations complete
+2019-10-21T18:09:10.376+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T18:09:10.380+0300	INFO	migrations complete
+2019-10-21T18:10:41.840+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T18:10:41.844+0300	INFO	migrations complete
+2019-10-21T18:10:41.850+0300	WARN	missing destination name transaction_type_id in *[]*models.Transaction
+2019-10-21T18:11:43.063+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T18:11:43.067+0300	INFO	migrations complete
+2019-10-21T18:11:53.077+0300	WARN	missing destination name id in *[]*models.TransactionType
+2019-10-21T18:14:47.917+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T18:14:47.921+0300	INFO	migrations complete
+2019-10-21T18:14:47.927+0300	WARN	missing destination name transaction_type_id in *[]*models.Transaction
+2019-10-21T18:14:57.932+0300	WARN	missing destination name id in *[]*models.TransactionType
+2019-10-21T18:15:07.938+0300	WARN	missing destination name id in *[]*models.TransactionType
+2019-10-21T18:15:17.943+0300	WARN	missing destination name id in *[]*models.TransactionType
+2019-10-21T18:15:59.214+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T18:15:59.218+0300	INFO	migrations complete
+2019-10-21T18:15:59.225+0300	WARN	missing destination name transaction_type_id in *[]*models.Transaction
+2019-10-21T18:16:10.336+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T18:16:10.340+0300	INFO	migrations complete
+2019-10-21T18:16:10.346+0300	WARN	missing destination name name in *[]*models.Transaction
+2019-10-21T18:16:57.342+0300	WARN	json: cannot unmarshal string into Go struct field Transaction.Type of type models.TransactionType
+2019-10-21T18:16:57.342+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 400, "size": 111}
+2019-10-21T18:17:18.112+0300	WARN	json: cannot unmarshal string into Go struct field Transaction.Type of type models.TransactionType
+2019-10-21T18:17:18.113+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 400, "size": 111}
+2019-10-21T18:18:09.673+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T18:18:09.677+0300	INFO	migrations complete
+2019-10-21T18:20:08.700+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T18:20:08.704+0300	INFO	migrations complete
+2019-10-21T18:20:08.709+0300	WARN	missing destination name transaction_type_id in *[]*models.Transaction
+2019-10-21T18:20:20.329+0300	INFO	backup: Server closed
+2019-10-21T18:20:20.330+0300	INFO	http: Server closed
+2019-10-21T18:20:24.591+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T18:20:24.595+0300	INFO	migrations complete
+2019-10-21T18:20:29.360+0300	INFO	backup: Server closed
+2019-10-21T18:20:29.360+0300	INFO	http: Server closed
+2019-10-21T18:20:34.023+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T18:20:34.027+0300	INFO	migrations complete
+2019-10-21T18:22:38.169+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T18:22:38.173+0300	INFO	migrations complete
+2019-10-21T18:23:08.619+0300	INFO	connect to db	{"status": "connected"}
+2019-10-21T18:23:08.623+0300	INFO	migrations complete
+2019-10-21T18:23:16.664+0300	WARN	transaction: transaction is already exist
+2019-10-21T18:23:16.664+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 400, "size": 54}
+2019-10-21T18:23:19.509+0300	WARN	deposit: deposit is already exist
+2019-10-21T18:23:19.509+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 400, "size": 46}
+2019-10-21T18:23:22.311+0300	WARN	user: user is already exist
+2019-10-21T18:23:22.311+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 400, "size": 40}
+2019-10-21T18:23:25.387+0300	INFO	served	{"path": "/user/create", "method": "POST", "status": 200, "size": 13}
+2019-10-21T18:23:37.282+0300	INFO	served	{"path": "/transaction", "method": "POST", "status": 200, "size": 31}
+2019-10-21T18:23:42.409+0300	INFO	served	{"path": "/user/deposit", "method": "POST", "status": 200, "size": 31}
+2019-10-21T18:24:14.319+0300	INFO	backup: Server closed
+2019-10-21T18:24:14.320+0300	INFO	http: Server closed
+2019-10-21T18:41:20.988+0300	INFO	connect to db	{"status": "retrying", "try": 1}
+2019-10-21T18:41:24.993+0300	INFO	connect to db	{"status": "retrying", "try": 2}
+2019-10-21T18:41:28.998+0300	INFO	connect to db	{"status": "retrying", "try": 3}
+2019-10-21T18:41:33.001+0300	INFO	connect to db	{"status": "retrying", "try": 4}
+2019-10-21T18:41:37.007+0300	INFO	connect to db	{"status": "retrying", "try": 5}
+2019-10-21T18:41:41.011+0300	INFO	connect to db	{"status": "retrying", "try": 6}
+2019-10-21T18:41:42.542+0300	INFO	connect to db	{"status": "retrying", "try": 7}
+2019-10-21T18:41:42.546+0300	INFO	connect to db	{"status": "retrying", "try": 8}
+2019-10-21T18:41:42.980+0300	INFO	connect to db	{"status": "retrying", "try": 9}
+2019-10-21T18:41:43.979+0300	INFO	connect to db	{"status": "retrying", "try": 10}
+2019-10-21T18:41:44.979+0300	INFO	connect to db	{"status": "retrying", "try": 11}
+2019-10-21T18:41:45.979+0300	INFO	connect to db	{"status": "retrying", "try": 12}
+2019-10-21T18:41:46.981+0300	INFO	connect to db	{"status": "retrying", "try": 13}
+2019-10-21T18:41:47.981+0300	INFO	connect to db	{"status": "retrying", "try": 14}
+2019-10-21T18:41:48.979+0300	INFO	connect to db	{"status": "retrying", "try": 15}
+2019-10-21T18:41:49.980+0300	INFO	connect to db	{"status": "retrying", "try": 16}
+2019-10-21T18:41:50.980+0300	INFO	connect to db	{"status": "retrying", "try": 17}
+2019-10-21T18:41:55.979+0300	INFO	connect to db	{"status": "retrying", "try": 18}
+2019-10-21T18:41:59.985+0300	INFO	connect to db	{"status": "retrying", "try": 19}
+2019-10-21T18:42:03.988+0300	INFO	connect to db	{"status": "retrying", "try": 20}
+2019-10-21T18:42:07.991+0300	INFO	connect to db	{"status": "retrying", "try": 21}
+2019-10-21T18:42:11.995+0300	INFO	connect to db	{"status": "retrying", "try": 22}
+2019-10-21T18:42:16.001+0300	INFO	connect to db	{"status": "retrying", "try": 23}
+2019-10-21T18:42:20.009+0300	INFO	connect to db	{"status": "retrying", "try": 24}
+2019-10-21T18:42:24.013+0300	INFO	connect to db	{"status": "retrying", "try": 25}
+2019-10-21T18:42:28.015+0300	INFO	connect to db	{"status": "retrying", "try": 26}
+2019-10-21T18:42:32.018+0300	INFO	connect to db	{"status": "retrying", "try": 27}
+2019-10-21T18:42:36.021+0300	INFO	connect to db	{"status": "retrying", "try": 28}
+2019-10-21T18:42:40.025+0300	INFO	connect to db	{"status": "retrying", "try": 29}
+2019-10-21T18:42:44.029+0300	INFO	connect to db	{"status": "retrying", "try": 30}
+2019-10-21T18:42:45.033+0300	INFO	connect to db	{"status": "retrying", "try": 31}
+2019-10-21T18:42:45.037+0300	INFO	connect to db	{"status": "retrying", "try": 32}
+2019-10-21T18:42:45.978+0300	INFO	connect to db	{"status": "retrying", "try": 33}
+2019-10-21T18:42:46.980+0300	INFO	connect to db	{"status": "retrying", "try": 34}
+2019-10-21T18:42:47.979+0300	INFO	connect to db	{"status": "retrying", "try": 35}
+2019-10-21T18:42:48.979+0300	INFO	connect to db	{"status": "retrying", "try": 36}
+2019-10-21T18:42:49.980+0300	INFO	connect to db	{"status": "retrying", "try": 37}
+2019-10-21T18:42:50.979+0300	INFO	connect to db	{"status": "retrying", "try": 38}
+2019-10-21T18:42:51.980+0300	INFO	connect to db	{"status": "retrying", "try": 39}
+2019-10-21T18:42:52.980+0300	INFO	connect to db	{"status": "retrying", "try": 40}
+2019-10-21T18:42:53.980+0300	INFO	connect to db	{"status": "retrying", "try": 41}
+2019-10-21T18:42:54.980+0300	INFO	connect to db	{"status": "retrying", "try": 42}
+2019-10-21T18:42:55.980+0300	INFO	connect to db	{"status": "retrying", "try": 43}
+2019-10-21T18:42:56.979+0300	INFO	connect to db	{"status": "retrying", "try": 44}
+2019-10-21T18:42:57.979+0300	INFO	connect to db	{"status": "retrying", "try": 45}
+2019-10-21T18:42:58.981+0300	INFO	connect to db	{"status": "retrying", "try": 46}
+2019-10-21T18:42:59.979+0300	INFO	connect to db	{"status": "retrying", "try": 47}
+2019-10-21T18:43:00.979+0300	INFO	connect to db	{"status": "retrying", "try": 48}
+2019-10-21T18:43:01.979+0300	INFO	connect to db	{"status": "retrying", "try": 49}
+2019-10-21T18:43:02.979+0300	INFO	connect to db	{"status": "retrying", "try": 50}
+2019-10-21T18:43:03.979+0300	INFO	connect to db	{"status": "retrying", "try": 51}
+2019-10-21T18:43:04.979+0300	INFO	connect to db	{"status": "retrying", "try": 52}
+2019-10-21T18:43:09.980+0300	INFO	connect to db	{"status": "retrying", "try": 53}
+2019-10-21T18:43:13.986+0300	INFO	connect to db	{"status": "retrying", "try": 54}
+2019-10-21T18:43:17.991+0300	INFO	connect to db	{"status": "retrying", "try": 55}
+2019-10-21T18:43:21.998+0300	INFO	connect to db	{"status": "retrying", "try": 56}
+2019-10-21T18:43:26.002+0300	INFO	connect to db	{"status": "retrying", "try": 57}
+2019-10-21T18:43:29.508+0300	INFO	connect to db	{"status": "retrying", "try": 58}
+2019-10-21T18:43:29.510+0300	INFO	connect to db	{"status": "retrying", "try": 59}
+2019-10-21T18:43:29.978+0300	INFO	connect to db	{"status": "retrying", "try": 60}
+2019-10-21T18:43:30.978+0300	FATAL	can't connect to database
+2019-10-21T19:14:03.258+0300	INFO	connect to db	{"status": "retrying", "try": 1}
+2019-10-21T19:14:05.512+0300	INFO	connect to db	{"status": "retrying", "try": 2}
+2019-10-21T19:14:07.768+0300	INFO	connect to db	{"status": "retrying", "try": 3}
+2019-10-21T19:14:10.022+0300	INFO	connect to db	{"status": "retrying", "try": 4}
+2019-10-21T19:14:12.275+0300	INFO	connect to db	{"status": "retrying", "try": 5}
+2019-10-21T19:14:14.530+0300	INFO	connect to db	{"status": "retrying", "try": 6}
+2019-10-21T19:14:16.783+0300	INFO	connect to db	{"status": "retrying", "try": 7}

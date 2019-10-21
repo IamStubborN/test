@@ -1,0 +1,34 @@
+version: '3.7'
+
+services:
+  db:
+    image: postgres:alpine
+    container_name: test_db
+    environment:
+      POSTGRES_USER: istub
+      POSTGRES_PASSWORD: test
+      POSTGRES_DB: test
+    ports:
+      - 5432:5432
+    networks:
+      - test-network
+
+  test:
+    container_name: test_go
+    build: .
+    restart: on-failure
+    env_file:
+      - dev.env
+    environment:
+      DB_HOST: db
+    ports:
+      - 5555:5555
+    depends_on:
+      - db
+    networks:
+      - test-network
+
+
+networks:
+  test-network:
+    driver: bridge
