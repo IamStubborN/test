@@ -8,18 +8,20 @@ import (
 )
 
 type transactionCache struct {
-	cache              map[uint64]*models.Transaction
-	backupTransactions backupTransactions
+	cache map[uint64]*models.Transaction
 	sync.RWMutex
 }
 
+var backup backupTransactions
+
 func NewTransactionCacheMap() transaction.Cache {
 	transactionCache := &transactionCache{
-		cache: make(map[uint64]*models.Transaction),
-		backupTransactions: backupTransactions{
-			ids:     make(map[uint64]struct{}),
-			RWMutex: sync.RWMutex{},
-		},
+		cache:   make(map[uint64]*models.Transaction),
+		RWMutex: sync.RWMutex{},
+	}
+
+	backup = backupTransactions{
+		ids:     make(map[uint64]struct{}),
 		RWMutex: sync.RWMutex{},
 	}
 
@@ -31,7 +33,7 @@ func (tc *transactionCache) AddTransaction(transaction *models.Transaction) {
 	defer tc.Unlock()
 
 	tc.cache[transaction.ID] = transaction
-	tc.backupTransactions.addIDToBackup(transaction.ID)
+	backup.addIDToBackup(transaction.ID)
 }
 
 func (tc *transactionCache) PutTransactionsToCache(transactions []*models.Transaction) {
@@ -88,7 +90,7 @@ func (tc *transactionCache) GetBackupTransactions() []*models.Transaction {
 	tc.RLock()
 	defer tc.RUnlock()
 
-	ids := tc.backupTransactions.getChangedUserIDs()
+	ids := backup.getChangedUserIDs()
 	result := make([]*models.Transaction, 0, len(ids))
 
 	for _, id := range ids {
@@ -99,5 +101,5 @@ func (tc *transactionCache) GetBackupTransactions() []*models.Transaction {
 }
 
 func (tc *transactionCache) CleanBackupTransactions() {
-	tc.backupTransactions.cleanBackupList()
+	backup.cleanBackupList()
 }

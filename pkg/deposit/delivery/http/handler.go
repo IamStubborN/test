@@ -4,14 +4,12 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/IamStubborN/test/pkg/deposit"
+	"github.com/go-chi/chi"
 
 	"github.com/IamStubborN/test/models"
-
-	"github.com/IamStubborN/test/pkg/responder"
-
+	"github.com/IamStubborN/test/pkg/deposit"
 	"github.com/IamStubborN/test/pkg/logger"
-	"github.com/go-chi/chi"
+	"github.com/IamStubborN/test/pkg/responder"
 )
 
 type depositHandler struct {
@@ -58,7 +56,7 @@ func (uh *depositHandler) addDeposit(w http.ResponseWriter, r *http.Request) {
 		Balance: d.BalanceAfter,
 	}
 
-	uh.responder.ResponsePOSTWithObject(w, res, http.StatusOK)
+	uh.responder.ResponseWithObject(w, res, http.StatusOK)
 }
 
 func (uh depositHandler) checkError(f func() error) {

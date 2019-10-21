@@ -4,13 +4,12 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/IamStubborN/test/pkg/transaction"
+	"github.com/go-chi/chi"
 
 	"github.com/IamStubborN/test/models"
-
 	"github.com/IamStubborN/test/pkg/logger"
 	"github.com/IamStubborN/test/pkg/responder"
-	"github.com/go-chi/chi"
+	"github.com/IamStubborN/test/pkg/transaction"
 )
 
 type transactionHandler struct {
@@ -57,7 +56,7 @@ func (th *transactionHandler) addTransaction(w http.ResponseWriter, r *http.Requ
 		Balance: t.BalanceAfter,
 	}
 
-	th.responder.ResponsePOSTWithObject(w, res, http.StatusOK)
+	th.responder.ResponseWithObject(w, res, http.StatusOK)
 }
 
 func (th *transactionHandler) checkError(f func() error) {

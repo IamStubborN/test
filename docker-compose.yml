@@ -5,13 +5,13 @@ services:
     image: postgres:alpine
     container_name: test_db
     environment:
-      POSTGRES_USER: istub
+      POSTGRES_USER: postgres
       POSTGRES_PASSWORD: test
       POSTGRES_DB: test
+    volumes:
+      - ./storage:/var/lib/postgresql/data
     ports:
       - 5432:5432
-    networks:
-      - test-network
 
   test:
     container_name: test_go
@@ -21,14 +21,8 @@ services:
       - dev.env
     environment:
       DB_HOST: db
+      DB_PASSWORD: test
     ports:
       - 5555:5555
     depends_on:
       - db
-    networks:
-      - test-network
-
-
-networks:
-  test-network:
-    driver: bridge

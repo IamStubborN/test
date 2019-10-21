@@ -8,18 +8,20 @@ import (
 )
 
 type usersCache struct {
-	cache       map[uint64]*models.User
-	backupUsers backupUsers
+	cache map[uint64]*models.User
 	sync.RWMutex
 }
 
+var backup backupUsers
+
 func NewUsersCacheMap() user.Cache {
 	usersCache := &usersCache{
-		cache: make(map[uint64]*models.User),
-		backupUsers: backupUsers{
-			ids:     make(map[uint64]struct{}),
-			RWMutex: sync.RWMutex{},
-		},
+		cache:   make(map[uint64]*models.User),
+		RWMutex: sync.RWMutex{},
+	}
+
+	backup = backupUsers{
+		ids:     make(map[uint64]struct{}),
 		RWMutex: sync.RWMutex{},
 	}
 
@@ -31,7 +33,7 @@ func (uc *usersCache) AddUser(user *models.User) {
 	defer uc.Unlock()
 
 	uc.cache[user.ID] = user
-	uc.backupUsers.addIDToBackup(user.ID)
+	backup.addIDToBackup(user.ID)
 }
 
 func (uc *usersCache) PutUsersToCache(users []*models.User) {
@@ -66,14 +68,14 @@ func (uc *usersCache) ChangeUserBalance(userID uint64, balance float64) {
 	defer uc.Unlock()
 
 	uc.cache[userID].Balance = balance
-	uc.backupUsers.addIDToBackup(userID)
+	backup.addIDToBackup(userID)
 }
 
 func (uc *usersCache) GetBackupUsers() []*models.User {
 	uc.RLock()
 	defer uc.RUnlock()
 
-	ids := uc.backupUsers.getChangedUserIDs()
+	ids := backup.getChangedUserIDs()
 	result := make([]*models.User, 0, len(ids))
 
 	for _, id := range ids {
@@ -84,5 +86,5 @@ func (uc *usersCache) GetBackupUsers() []*models.User {
 }
 
 func (uc *usersCache) CleanBackupUsers() {
-	uc.backupUsers.cleanBackupList()
+	backup.cleanBackupList()
 }

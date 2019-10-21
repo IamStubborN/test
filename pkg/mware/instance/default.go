@@ -6,13 +6,14 @@ import (
 	"io/ioutil"
 	"net/http"
 
+	"github.com/go-chi/chi/middleware"
+
 	"github.com/IamStubborN/test/pkg/logger"
 	"github.com/IamStubborN/test/pkg/mware"
 	"github.com/IamStubborN/test/pkg/responder"
-	"github.com/go-chi/chi/middleware"
 )
 
-type auth struct {
+type creds struct {
 	Token string `json:"token"`
 }
 
@@ -39,7 +40,7 @@ func (mw middleWare) AuthMiddleware(next http.Handler) http.Handler {
 		copyBody := ioutil.NopCloser(bytes.NewBuffer(buf))
 		r.Body = copyBody
 
-		var auth auth
+		var auth creds
 		err = json.NewDecoder(body).Decode(&auth)
 		if err != nil {
 			mw.responder.ResponseWithError(w, ErrInvalidBody, http.StatusBadRequest)

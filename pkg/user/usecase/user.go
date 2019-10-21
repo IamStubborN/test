@@ -1,7 +1,6 @@
 package usecase
 
 import (
-	"context"
 	"github.com/IamStubborN/test/models"
 	"github.com/IamStubborN/test/pkg/logger"
 	"github.com/IamStubborN/test/pkg/user"
@@ -56,7 +55,7 @@ func (uuc *userUC) IsUserExist(userID uint64) error {
 }
 
 func (uuc *userUC) RestoreUsers() error {
-	users, err := uuc.repository.GetAllUsers(context.Background())
+	users, err := uuc.repository.GetAllUsers()
 	if err != nil {
 		return err
 	}
@@ -68,7 +67,12 @@ func (uuc *userUC) RestoreUsers() error {
 
 func (uuc *userUC) BackupUsers() error {
 	users := uuc.cache.GetBackupUsers()
-	err := uuc.repository.BackupUsers(context.Background(), users)
+
+	if len(users) == 0 {
+		return nil
+	}
+
+	err := uuc.repository.BackupUsers(users)
 	if err != nil {
 		return err
 	}

@@ -1,7 +1,6 @@
 package usecase
 
 import (
-	"context"
 	"time"
 
 	"github.com/shopspring/decimal"
@@ -77,7 +76,7 @@ func (duc *depositUC) GetDepositCountAndSum(userID uint64) (count uint64, sum fl
 }
 
 func (duc *depositUC) RestoreDeposits() error {
-	deposits, err := duc.repository.GetAllDeposits(context.Background())
+	deposits, err := duc.repository.GetAllDeposits()
 	if err != nil {
 		return err
 	}
@@ -96,7 +95,7 @@ func (duc *depositUC) BackupDeposits() error {
 		return nil
 	}
 
-	err := duc.repository.BackupDeposits(context.Background(), deposits)
+	err := duc.repository.BackupDeposits(deposits)
 	if err != nil {
 		return err
 	}

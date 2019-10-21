@@ -1,13 +1,11 @@
 package repository
 
 import (
-	"context"
-	"database/sql"
+	"github.com/jmoiron/sqlx"
 
 	"github.com/IamStubborN/test/models"
 	"github.com/IamStubborN/test/pkg/deposit"
 	"github.com/IamStubborN/test/pkg/logger"
-	"github.com/jmoiron/sqlx"
 )
 
 type depositRepository struct {
@@ -22,7 +20,7 @@ func NewDepositRepositoryPSQL(pool *sqlx.DB, l logger.Logger) deposit.Repository
 	}
 }
 
-func (dr *depositRepository) GetAllDeposits(ctx context.Context) ([]*models.Deposit, error) {
+func (dr *depositRepository) GetAllDeposits() ([]*models.Deposit, error) {
 	query := `select id, user_id, amount, balance_before, balance_after, date from deposits`
 
 	var deposits []*models.Deposit
@@ -34,8 +32,8 @@ func (dr *depositRepository) GetAllDeposits(ctx context.Context) ([]*models.Depo
 	return deposits, nil
 }
 
-func (dr *depositRepository) BackupDeposits(ctx context.Context, deposits []*models.Deposit) error {
-	tx, err := dr.pool.BeginTxx(ctx, &sql.TxOptions{})
+func (dr *depositRepository) BackupDeposits(deposits []*models.Deposit) error {
+	tx, err := dr.pool.Beginx()
 	if err != nil {
 		return err
 	}
@@ -46,22 +44,20 @@ func (dr *depositRepository) BackupDeposits(ctx context.Context, deposits []*mod
 			dr.checkError(tx.Commit)
 		default:
 			dr.checkError(tx.Rollback)
-			return
 		}
-
 	}()
 
 	query := `insert into deposits(
                      id, user_id, amount, balance_before, balance_after, date) 
                      values (:id, :user_id, :amount, :balance_before, :balance_after, :date)`
 
-	stmt, err := tx.PrepareNamedContext(ctx, query)
+	stmt, err := tx.PrepareNamed(query)
 	if err != nil {
 		return err
 	}
 
 	for _, d := range deposits {
-		_, err := stmt.ExecContext(ctx, &d)
+		_, err := stmt.Exec(d)
 		if err != nil {
 			return err
 		}

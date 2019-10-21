@@ -4,11 +4,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/IamStubborN/test/pkg/logger"
-
-	"github.com/IamStubborN/test/worker"
-
+	"github.com/IamStubborN/test/daemon"
 	"github.com/IamStubborN/test/pkg/deposit"
+	"github.com/IamStubborN/test/pkg/logger"
 	"github.com/IamStubborN/test/pkg/transaction"
 	"github.com/IamStubborN/test/pkg/user"
 )
@@ -26,7 +24,7 @@ func NewBackupDaemon(
 	l logger.Logger,
 	uuc user.UseCase,
 	duc deposit.UseCase,
-	tuc transaction.UseCase) worker.Worker {
+	tuc transaction.UseCase) daemon.Daemon {
 	return &back{
 		freq:        freq,
 		logger:      l,

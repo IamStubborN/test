@@ -1,14 +1,14 @@
 package usecase
 
 import (
-	"context"
 	"time"
+
+	"github.com/shopspring/decimal"
 
 	"github.com/IamStubborN/test/models"
 	"github.com/IamStubborN/test/pkg/logger"
 	"github.com/IamStubborN/test/pkg/transaction"
 	"github.com/IamStubborN/test/pkg/user"
-	"github.com/shopspring/decimal"
 )
 
 type transactionUC struct {
@@ -101,7 +101,7 @@ func (tuc *transactionUC) GetBetCountAndSum(userID uint64) (count uint64, sum fl
 }
 
 func (tuc *transactionUC) RestoreTransactions() error {
-	transactions, err := tuc.repository.GetAllTransactions(context.Background())
+	transactions, err := tuc.repository.GetAllTransactions()
 	if err != nil {
 		return err
 	}
@@ -113,7 +113,12 @@ func (tuc *transactionUC) RestoreTransactions() error {
 
 func (tuc *transactionUC) BackupTransactions() error {
 	transactions := tuc.cache.GetBackupTransactions()
-	err := tuc.repository.BackupTransactions(context.Background(), transactions)
+
+	if len(transactions) == 0 {
+		return nil
+	}
+
+	err := tuc.repository.BackupTransactions(transactions)
 	if err != nil {
 		return err
 	}

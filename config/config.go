@@ -1,7 +1,6 @@
 package config
 
 import (
-	"fmt"
 	"log"
 	"time"
 
@@ -17,7 +16,7 @@ type Config struct {
 }
 
 type API struct {
-	Port            int           `env:"API_PORT" envDefault:"3000"`
+	Port            int           `env:"API_PORT" envDefault:"5555"`
 	WriteTimeout    time.Duration `env:"API_WRITE_TIMEOUT" envDefault:"10s"`
 	ReadTimeout     time.Duration `env:"API_READ_TIMEOUT" envDefault:"5s"`
 	GracefulTimeout time.Duration `env:"API_GRACEFUL_TIMEOUT" envDefault:"10s"`
@@ -47,7 +46,7 @@ func LoadConfig() *Config {
 
 	err := godotenv.Load()
 	if err != nil {
-		log.Fatalln(err)
+		log.Println("no .env file")
 	}
 
 	if err := env.Parse(&cfg); err != nil {

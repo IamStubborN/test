@@ -4,16 +4,14 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/IamStubborN/test/pkg/deposit"
-	"github.com/IamStubborN/test/pkg/transaction"
+	"github.com/go-chi/chi"
 
 	"github.com/IamStubborN/test/models"
-
-	"github.com/IamStubborN/test/pkg/responder"
-
+	"github.com/IamStubborN/test/pkg/deposit"
 	"github.com/IamStubborN/test/pkg/logger"
+	"github.com/IamStubborN/test/pkg/responder"
+	"github.com/IamStubborN/test/pkg/transaction"
 	"github.com/IamStubborN/test/pkg/user"
-	"github.com/go-chi/chi"
 )
 
 type userHandler struct {
@@ -106,7 +104,7 @@ func (uh *userHandler) getUser(w http.ResponseWriter, r *http.Request) {
 		WinSum:       winSum,
 	}
 
-	uh.responder.ResponseGETWithObject(w, ur, http.StatusOK)
+	uh.responder.ResponseWithObject(w, ur, http.StatusOK)
 }
 
 func (uh userHandler) checkError(f func() error) {

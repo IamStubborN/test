@@ -1,10 +1,11 @@
 package app
 
 import (
+	"log"
+
 	"github.com/IamStubborN/test/config"
 	"github.com/IamStubborN/test/pkg/logger"
 	"github.com/IamStubborN/test/pkg/logger/instance"
-	"log"
 )
 
 func initializeLogger(config *config.Config) logger.Logger {

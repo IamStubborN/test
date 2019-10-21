@@ -1,9 +1,10 @@
 package instance
 
 import (
-	"github.com/IamStubborN/test/pkg/logger"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
+
+	"github.com/IamStubborN/test/pkg/logger"
 )
 
 type zapLogger struct {

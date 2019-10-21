@@ -8,13 +8,13 @@ import (
 	"syscall"
 
 	"github.com/IamStubborN/test/config"
+	"github.com/IamStubborN/test/daemon"
 	"github.com/IamStubborN/test/pkg/logger"
-	"github.com/IamStubborN/test/worker"
 )
 
 type App struct {
 	logger  logger.Logger
-	Workers []worker.Worker
+	Daemons []daemon.Daemon
 }
 
 func NewApp() *App {
@@ -31,10 +31,10 @@ func NewApp() *App {
 	duc := initializeDepositUC(pool, app.logger, uuc)
 	tuc := initializeTransactionUC(pool, app.logger, uuc)
 
-	router := initializeRouter(pool, app.logger, responder, mw, uuc, duc, tuc)
+	router := initializeRouter(app.logger, responder, mw, uuc, duc, tuc)
 
-	app.Workers = append(app.Workers, initializeAPIWorker(cfg, router))
-	app.Workers = append(app.Workers, initializeBackupDaemon(cfg, app.logger, uuc, duc, tuc))
+	app.Daemons = append(app.Daemons, initializeAPIDaemon(cfg, router))
+	app.Daemons = append(app.Daemons, initializeBackupDaemon(cfg, app.logger, uuc, duc, tuc))
 
 	return &app
 }
@@ -44,9 +44,9 @@ func (app *App) Run() {
 
 	ctx, cancel := context.WithCancel(context.Background())
 
-	for _, service := range app.Workers {
+	for _, service := range app.Daemons {
 		wg.Add(1)
-		go func(service worker.Worker) {
+		go func(service daemon.Daemon) {
 			defer wg.Done()
 			service.Run(ctx)
 		}(service)

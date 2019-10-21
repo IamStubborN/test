@@ -6,17 +6,17 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/IamStubborN/test/pkg/logger"
-
-	"github.com/IamStubborN/test/config"
 	"github.com/jmoiron/sqlx"
 	migrate "github.com/rubenv/sql-migrate"
+
+	"github.com/IamStubborN/test/config"
+	"github.com/IamStubborN/test/pkg/logger"
 )
 
 func initializeSQLConn(cfg *config.Config, logger logger.Logger) *sqlx.DB {
 	dbInfo := fmt.Sprintf("host=%s port=%s user=%s password=%s dbname=%s sslmode=disable",
 		cfg.DB.Host, strconv.Itoa(cfg.DB.Port), cfg.DB.User, cfg.DB.Password, cfg.DB.Name)
-	pool, err := sqlx.Open("pgx", dbInfo)
+	pool, err := sqlx.Open("postgres", dbInfo)
 	if err != nil {
 		logger.Fatal(err)
 		return nil

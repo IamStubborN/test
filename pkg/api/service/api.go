@@ -2,13 +2,14 @@ package service
 
 import (
 	"context"
-	"github.com/IamStubborN/test/worker"
 	"net/http"
 	"strconv"
 	"time"
 
 	"github.com/go-chi/chi"
 	"go.uber.org/zap"
+
+	"github.com/IamStubborN/test/daemon"
 )
 
 type APIWorker struct {
@@ -19,7 +20,12 @@ type APIWorker struct {
 	GTimeout time.Duration
 }
 
-func NewAPIWorker(port int, writeTimeout, readTimeout, gracefulTimeout time.Duration, router chi.Router) worker.Worker {
+func NewAPIWorker(
+	port int,
+	writeTimeout,
+	readTimeout,
+	gracefulTimeout time.Duration,
+	router chi.Router) daemon.Daemon {
 	return &APIWorker{
 		Port:     port,
 		Router:   router,

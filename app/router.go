@@ -8,11 +8,9 @@ import (
 	"github.com/IamStubborN/test/pkg/transaction"
 	"github.com/IamStubborN/test/pkg/user"
 	"github.com/go-chi/chi"
-	"github.com/jmoiron/sqlx"
 )
 
 func initializeRouter(
-	pool *sqlx.DB,
 	l logger.Logger,
 	r responder.Responder,
 	mw mware.MWare,
@@ -24,7 +22,7 @@ func initializeRouter(
 	router.Use(mw.AuthMiddleware)
 	router.Use(mw.RequestLogger)
 
-	registerHandlers(pool, router, l, r, uuc, duc, tuc)
+	registerHandlers(router, l, r, uuc, duc, tuc)
 
 	return router
 }

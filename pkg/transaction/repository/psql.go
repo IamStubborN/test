@@ -1,13 +1,11 @@
 package repository
 
 import (
-	"context"
-	"database/sql"
+	"github.com/jmoiron/sqlx"
 
 	"github.com/IamStubborN/test/models"
 	"github.com/IamStubborN/test/pkg/logger"
 	"github.com/IamStubborN/test/pkg/transaction"
-	"github.com/jmoiron/sqlx"
 )
 
 type transactionRepository struct {
@@ -22,7 +20,7 @@ func NewTransactionRepositoryPSQL(pool *sqlx.DB, l logger.Logger) transaction.Re
 	}
 }
 
-func (tr *transactionRepository) GetAllTransactions(ctx context.Context) ([]*models.Transaction, error) {
+func (tr *transactionRepository) GetAllTransactions() ([]*models.Transaction, error) {
 	query := `select id, user_id, amount, tt.type_id, tt.name, balance_before, balance_after, date from transactions as t 
 				inner join transaction_types tt on t.transaction_type_id = tt.type_id`
 
@@ -35,8 +33,8 @@ func (tr *transactionRepository) GetAllTransactions(ctx context.Context) ([]*mod
 	return transactions, nil
 }
 
-func (tr *transactionRepository) BackupTransactions(ctx context.Context, transactions []*models.Transaction) error {
-	tx, err := tr.pool.BeginTxx(ctx, &sql.TxOptions{})
+func (tr *transactionRepository) BackupTransactions(transactions []*models.Transaction) error {
+	tx, err := tr.pool.Beginx()
 	if err != nil {
 		return err
 	}
@@ -58,10 +56,11 @@ func (tr *transactionRepository) BackupTransactions(ctx context.Context, transac
 		return err
 	}
 
-	insertTransactionQuery := `insert into transactions(id, user_id, transaction_type_id, amount,  balance_after, balance_before, date) 
-                     values (:id, :user_id, :transaction_type_id, :amount, :balance_before, :balance_after, :date)`
+	insertTransactionQuery := `insert into transactions(
+                         id, user_id, transaction_type_id, amount,  balance_after, balance_before, date) 
+                    values (:id, :user_id, :transaction_type_id, :amount, :balance_before, :balance_after, :date)`
 
-	stmt, err := tx.PrepareNamedContext(ctx, insertTransactionQuery)
+	stmt, err := tx.PrepareNamed(insertTransactionQuery)
 	if err != nil {
 		return err
 	}
@@ -80,7 +79,7 @@ func (tr *transactionRepository) BackupTransactions(ctx context.Context, transac
 			"date":                t.Date,
 		}
 
-		_, err := stmt.ExecContext(ctx, argQ)
+		_, err := stmt.Exec(argQ)
 		if err != nil {
 			return err
 		}

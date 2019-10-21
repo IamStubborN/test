@@ -3,7 +3,6 @@ FROM golang:alpine as builder
 RUN apk add --no-cache git
 WORKDIR /github.com/IamStubborN/test
 COPY . .
-COPY dev.env .env
 ENV GO111MODULE=on
 ENV CGO_ENABLED=0
 

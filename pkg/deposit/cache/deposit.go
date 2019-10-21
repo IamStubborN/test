@@ -8,18 +8,19 @@ import (
 )
 
 type depositCache struct {
-	cache         map[uint64]*models.Deposit
-	backupDeposit backupDeposit
+	cache map[uint64]*models.Deposit
 	sync.RWMutex
 }
+
+var backup backupDeposit
 
 func NewDepositCacheMap() deposit.Cache {
 	depositCache := &depositCache{
 		cache: make(map[uint64]*models.Deposit),
-		backupDeposit: backupDeposit{
-			ids:     make(map[uint64]struct{}),
-			RWMutex: sync.RWMutex{},
-		},
+	}
+
+	backup = backupDeposit{
+		ids:     make(map[uint64]struct{}),
 		RWMutex: sync.RWMutex{},
 	}
 
@@ -31,7 +32,7 @@ func (dc *depositCache) AddDeposit(deposit *models.Deposit) {
 	defer dc.Unlock()
 
 	dc.cache[deposit.ID] = deposit
-	dc.backupDeposit.addIDToBackup(deposit.ID)
+	backup.addIDToBackup(deposit.ID)
 }
 
 func (dc *depositCache) PutDepositsToCache(deposits []*models.Deposit) {
@@ -73,7 +74,7 @@ func (dc *depositCache) GetBackupDeposits() []*models.Deposit {
 	dc.RLock()
 	defer dc.RUnlock()
 
-	ids := dc.backupDeposit.getChangedUserIDs()
+	ids := backup.getChangedUserIDs()
 	result := make([]*models.Deposit, 0, len(ids))
 
 	for _, id := range ids {
@@ -84,5 +85,5 @@ func (dc *depositCache) GetBackupDeposits() []*models.Deposit {
 }
 
 func (dc *depositCache) CleanBackupDeposits() {
-	dc.backupDeposit.cleanBackupList()
+	backup.cleanBackupList()
 }

@@ -22,19 +22,8 @@ func NewJSONResponder(l logger.Logger) responder.Responder {
 	}
 }
 
-func (r *resp) ResponseGETWithObject(w http.ResponseWriter, object interface{}, code int) {
+func (r *resp) ResponseWithObject(w http.ResponseWriter, object interface{}, code int) {
 	w.WriteHeader(code)
-	w.Header().Set("Content-Type", "application/json")
-
-	err := json.NewEncoder(w).Encode(&object)
-	if err != nil {
-		r.Logger.Warn(err)
-	}
-}
-
-func (r *resp) ResponsePOSTWithObject(w http.ResponseWriter, object interface{}, code int) {
-	w.WriteHeader(code)
-	w.Header().Set("Content-Type", "application/json")
 
 	err := json.NewEncoder(w).Encode(&object)
 	if err != nil {
@@ -44,7 +33,6 @@ func (r *resp) ResponsePOSTWithObject(w http.ResponseWriter, object interface{},
 
 func (r *resp) ResponseOK(w http.ResponseWriter, code int) {
 	w.WriteHeader(code)
-	w.Header().Set("Content-Type", "application/json")
 
 	response := responseError{
 		Error: "",
@@ -58,7 +46,6 @@ func (r *resp) ResponseOK(w http.ResponseWriter, code int) {
 
 func (r *resp) ResponseWithError(w http.ResponseWriter, err error, code int) {
 	w.WriteHeader(code)
-	w.Header().Set("Content-Type", "application/json")
 
 	response := responseError{
 		Error: err.Error(),
