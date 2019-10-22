@@ -16,6 +16,8 @@ linters-settings:
 issues:
   exclude:
     - Using the variable on range scope `tt` in function literal
+    - not declared by package utf8
+    - unicode/utf8/utf8.go
 
 run:
   skip-dirs:
