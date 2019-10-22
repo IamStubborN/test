@@ -18,14 +18,14 @@ folder **httptest** for testing routes via jetbrains http client
 
 POST "/user/create"
 
-{“id”:1, “balance”:0.0, “token”:”testtask”}
+{"id":1, "balance":0.0, "token":"testtask"}
 
 
 
 #### Get User information
 POST "/user/get"
 
-{“id”:1, “token”:”testtask”}
+{"id":1, "token":"testtask"}
 
 
 
