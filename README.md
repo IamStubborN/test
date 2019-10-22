@@ -1,11 +1,16 @@
 # Test
 
+Architecture inspired from https://github.com/bxcodec/go-clean-arch
+
+Have much overcoding, but i can easily add new features and unit testing for everything
+
 ## Run
 
 **make up** - to run in docker-compose
 
 other cmds you can find in makefile
 
+folder **httptest** for testing routes via jetbrains http client
 
 ## Routes
 
